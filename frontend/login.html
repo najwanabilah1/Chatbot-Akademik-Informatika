@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="assets/css/login.css" />
+</head>
+
+<body class="login-page">
+  <div class="card-login">
+    <img src="assets/img/logochatbot.png" class="logo" alt="Logo" />
+    <h2>Masuk ke Akun Anda</h2>
+
+    <form id="loginForm" onsubmit="handleLogin(event)">
+      <input type="text" id="npm" placeholder="Masukkan NPM" required />
+      <input type="password" id="password" placeholder="Masukkan Password" required />
+      <button type="submit">LOGIN</button>
+    </form>
+
+    <p class="signup-text">
+      Belum punya akun?
+      <a href="signup.html">Daftar sekarang</a>
+    </p>
+  </div>
+
+ <script>
+  async function handleLogin(event) {
+    event.preventDefault();
+
+    const npm = document.getElementById("npm").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    if (!npm || !password) {
+      alert("Harap isi semua kolom!");
+      return;
+    }
+
+    try {
+      const res = await fetch("http://127.0.0.1:5000/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ npm, password })
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        // Simpan data login ke localStorage
+        localStorage.setItem("userData", JSON.stringify(data));
+        alert("Login berhasil!");
+        // Arahkan ke chatbot.html
+        window.location.href = "chatbot.html";
+      } else {
+        alert("Login gagal: " + (data.error || "Terjadi kesalahan."));
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Gagal terhubung ke server backend.");
+    }
+  }
+</script>

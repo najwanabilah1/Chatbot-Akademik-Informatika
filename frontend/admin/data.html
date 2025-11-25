@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Management | Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/admin/data.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h4 class="fw-bold text-center mb-4">
+      <img src="../assets/img/logochatbot.png" alt="Logo" class="logo" />
+    </h4>
+    <ul class="nav flex-column gap-2 flex-grow-1">
+      <li><a href="dashboard.html" class="menu-item"><i class="bi bi-house-door me-2"></i>Home</a></li>
+      <li><a href="user.html" class="menu-item"><i class="bi bi-people me-2"></i>User Management</a></li>
+      <li><a href="data.html" class="menu-item active"><i class="bi bi-folder2-open me-2"></i>Data Management</a></li>
+    </ul>
+    <div class="menu-bottom mt-auto">
+      <div class="nightmode-container mb-2">
+        <span> Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox" id="modeBtn">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <a href="#" class="menu-item logout" id="logoutBtn">
+        <i class="bi bi-box-arrow-right me-2"></i>Logout
+      </a>
+    </div>
+  </div>
+
+  <!-- overlay for mobile sidebar -->
+  <div id="sidebarOverlay" class="sidebar-overlay" aria-hidden="true"></div>
+
+  <!-- Content -->
+  <div class="content p-4">
+    <div class="content-header">
+      <div class="d-flex align-items-center gap-3">
+        <button id="sidebarToggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+        <h3 class="mb-0 fw-bold fs-3">Data Management</h3>
+      </div>
+      <p class="text-muted mb-0">Kelola Dataset dan Peraturan dengan mudah.</p>
+    </div>
+
+    <!-- Upload & Retrain Section -->
+    <div class="card shadow-sm p-3 mb-4 border-0">
+      <div class="row g-3">
+        
+        <!-- Upload CSV -->
+        <div class="col-md-4">
+          <label class="form-label fw-semibold">Upload Dataset (CSV)</label>
+          <input type="file" id="csvFile" accept=".csv" class="form-control mb-2">
+          <button class="btn btn-primary btn-sm w-100" onclick="uploadDataset()">
+            <i class="bi bi-upload me-1"></i> Upload CSV
+          </button>
+        </div>
+
+        <!-- Upload Peraturan -->
+        <div class="col-md-4">
+          <label class="form-label fw-semibold">Upload Peraturan (PDF/DOCX)</label>
+          <input type="file" id="peraturanFile" accept=".pdf,.docx,.doc" class="form-control mb-2">
+          <button class="btn btn-primary btn-sm w-100" onclick="uploadPeraturan()">
+            <i class="bi bi-upload me-1"></i> Upload Peraturan
+          </button>
+        </div>
+
+        <!-- Retrain -->
+        <div class="col-md-4">
+          <label class="form-label fw-semibold">Latih Ulang Model</label>
+          <button class="btn btn-dark btn-sm w-100 mt-4" onclick="retrainModel()">
+            <i class="bi bi-cpu me-1"></i> Retrain Model
+          </button>
+        </div>
+      </div>
+
+      <!-- Alert Message -->
+      <div id="alertBox" class="alert mt-4 d-none"></div>
+    </div>
+
+
+    <!-- TAB SWITCH -->
+    <ul class="nav nav-tabs mb-3" id="dataTabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#" onclick="switchTab('dataset')">Dataset</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="switchTab('peraturan')">Peraturan</a>
+      </li>
+    </ul>
+
+    <!-- Data Table -->
+    <div class="card shadow-sm border-0 p-3">
+      <div class="table-responsive">
+        <table class="table align-middle">
+          <thead class="table-light" id="tableHeader"></thead>
+          <tbody id="dataTable">
+            <tr><td class="text-center text-muted">Memuat data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  // === SIDEBAR TOGGLE (mobile) ===
+  (function(){
+    const sidebar = document.querySelector('.sidebar');
+    const toggle = document.getElementById('sidebarToggle');
+    const overlay = document.getElementById('sidebarOverlay');
+
+    function openSidebar(){
+      sidebar.classList.add('open');
+      overlay.classList.add('visible');
+      overlay.setAttribute('aria-hidden','false');
+    }
+    function closeSidebar(){
+      sidebar.classList.remove('open');
+      overlay.classList.remove('visible');
+      overlay.setAttribute('aria-hidden','true');
+    }
+
+    toggle && toggle.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      if(sidebar.classList.contains('open')) closeSidebar(); else openSidebar();
+    });
+
+    overlay && overlay.addEventListener('click', closeSidebar);
+
+    // close on resize to desktop
+    window.addEventListener('resize', ()=>{ if(window.innerWidth>900) closeSidebar(); });
+  })();
+  const API_BASE = "http://127.0.0.1:5000/api/admin";
+  let activeTab = "dataset";
+
+  // -----------------------------
+  // TAB SWITCH
+  // -----------------------------
+  function switchTab(tab) {
+    activeTab = tab;
+    document.querySelectorAll("#dataTabs .nav-link").forEach(el => el.classList.remove("active"));
+    event.target.classList.add("active");
+    loadTableData();
+  }
+
+  // -----------------------------
+  // LOAD DATA
+  // -----------------------------
+  async function loadTableData() {
+    let url = activeTab === "dataset"
+      ? `${API_BASE}/uploads/datasets`
+      : `${API_BASE}/uploads/pdfs`;
+
+    const res = await fetch(url);
+    const data = await res.json();
+
+    if (Array.isArray(data) && data.length > 0 && data[0].filename) {
+      renderFileListTable(data);
+      return;
+    }
+
+    // Fallback: jika backend masih mengembalikan struktur lama
+    renderTable((data && data.data) || data || []);
+  }
+
+  // -----------------------------
+  // RENDER TABLE
+  // -----------------------------
+  function renderTable(rows) {
+    let headerHTML = "";
+    let bodyHTML = "";
+
+    if (activeTab === "dataset") {
+      headerHTML = `
+        <tr>
+          <th>ID</th>
+          <th>Pertanyaan</th>
+          <th>Jawaban</th>
+          <th>Aksi</th>
+        </tr>`;
+
+      bodyHTML = rows.map(r => `
+        <tr>
+          <td>${r.id}</td>
+          <td>${r.pertanyaan}</td>
+          <td>${r.jawaban}</td>
+          <td>
+            <button class="btn btn-danger btn-sm" onclick="deleteItem('dataset', ${r.id})">
+              <i class="bi bi-trash"></i>
+            </button>
+          </td>
+        </tr>`).join("");
+
+    } else {
+      headerHTML = `
+        <tr>
+          <th>ID</th>
+          <th>Pasal</th>
+          <th>Isi</th>
+          <th>Aksi</th>
+        </tr>`;
+
+      bodyHTML = rows.map(r => `
+        <tr>
+          <td>${r.id}</td>
+          <td>${r.pasal}</td>
+          <td>${r.isi}</td>
+          <td>
+            <button class="btn btn-danger btn-sm" onclick="deleteItem('peraturan', ${r.id})">
+              <i class="bi bi-trash"></i>
+            </button>
+          </td>
+        </tr>`).join("");
+    }
+
+    document.getElementById("tableHeader").innerHTML = headerHTML;
+    document.getElementById("dataTable").innerHTML = bodyHTML || 
+      `<tr><td colspan="4" class="text-center text-muted">Belum ada data</td></tr>`;
+  }
+
+  // Render file list (filename, uploaded_at, size)
+  function renderFileListTable(files) {
+    let headerHTML = `
+      <tr>
+        <th>No</th>
+        <th>Nama File</th>
+        <th>Uploaded At</th>
+        <th>Ukuran</th>
+      </tr>`;
+
+    let bodyHTML = files.map((f, idx) => {
+      const sizeKb = f.size ? (f.size / 1024).toFixed(1) + ' KB' : '-';
+      const uploaded = f.uploaded_at || '-';
+      const name = f.filename || '-';
+      return `
+        <tr>
+          <td>${idx + 1}</td>
+          <td>${name}</td>
+          <td>${uploaded}</td>
+          <td>${sizeKb}</td>
+        </tr>`;
+    }).join('');
+
+    document.getElementById("tableHeader").innerHTML = headerHTML;
+    document.getElementById("dataTable").innerHTML = bodyHTML || `<tr><td colspan="4" class="text-center text-muted">Belum ada file</td></tr>`;
+  }
+
+  function copyFilename(name) {
+    if (!navigator.clipboard) {
+      showAlert('Clipboard not supported', 'warning');
+      return;
+    }
+    navigator.clipboard.writeText(name).then(() => {
+      showAlert('Nama file disalin ke clipboard', 'success');
+    }).catch(() => {
+      showAlert('Gagal menyalin nama file', 'danger');
+    });
+  }
+
+
+  async function deleteItem(type, id) {
+    if (!confirm("Yakin ingin menghapus item ini?")) return;
+
+    const url = type === "dataset"
+      ? `${API_BASE}/delete_dataset/${id}`
+      : `${API_BASE}/delete_peraturan/${id}`;
+
+    const res = await fetch(url, { method: "DELETE" });
+    const data = await res.json();
+
+    showAlert(data.message, "success");
+    loadTableData();
+  }
+
+  // -----------------------------
+  // UPLOAD DATASET
+  // -----------------------------
+  async function uploadDataset() {
+    const file = document.getElementById("csvFile").files[0];
+    if (!file) return showAlert("Pilih file CSV terlebih dahulu!", "danger");
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    const res = await fetch(`${API_BASE}/upload_dataset`, { method: "POST", body: formData });
+    const data = await res.json();
+
+    showAlert(res.ok ? "Dataset berhasil di-upload!" : data.message, res.ok ? "success" : "danger");
+    loadTableData();
+  }
+
+  // -----------------------------
+  // UPLOAD PERATURAN (PDF/Word)
+  // -----------------------------
+  async function uploadPeraturan(type = null) {
+    const fileEl = document.getElementById("peraturanFile");
+    const file = fileEl.files[0];
+    if (!file) return showAlert("Pilih file PDF atau Word terlebih dahulu!", "danger");
+
+    const fname = file.name.toLowerCase();
+
+    // Jika type tidak diberikan, deteksi berdasarkan ekstensi
+    if (!type) {
+      if (fname.endsWith('.pdf')) type = 'pdf';
+      else if (fname.match(/\.(docx|doc)$/)) type = 'word';
+      else return showAlert("Format file tidak didukung. Gunakan .pdf atau .docx/.doc", "danger");
+    }
+
+    // Validasi file sesuai tipe
+    if (type === 'pdf' && !fname.endsWith('.pdf')) {
+      return showAlert("Pilih file PDF yang benar!", "danger");
+    }
+    if (type === 'word' && !fname.match(/\.(docx|doc)$/)) {
+      return showAlert("Pilih file Word (.docx atau .doc)!", "danger");
+    }
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    const endpoint = type === 'pdf' ? `${API_BASE}/upload_pdf` : `${API_BASE}/upload_word`;
+    const res = await fetch(endpoint, { method: "POST", body: formData });
+    const data = await res.json();
+
+    const message = type === 'pdf' ? "Peraturan PDF berhasil di-upload!" : "Peraturan Word berhasil di-upload!";
+    showAlert(res.ok ? message : data.message, res.ok ? "success" : "danger");
+
+    if (res.ok) {
+      fileEl.value = ""; // Clear input
+    }
+    loadTableData();
+  }
+
+  // Backward compatibility (old callers)
+  async function uploadPDF() { return uploadPeraturan('pdf'); }
+  async function uploadWord() { return uploadPeraturan('word'); }
+
+  // -----------------------------
+  // RETRAIN MODEL
+  // -----------------------------
+  async function retrainModel() {
+    const btn = document.querySelector("button[onclick='retrainModel()']");
+    
+    // Disable tombol saat proses retrain
+    btn.disabled = true;
+    btn.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span> Melatih model...`;
+
+    showAlert("Proses retrain dimulai...", "info");
+
+    const res = await fetch(`${API_BASE}/retrain`, { method: "POST" });
+    const data = await res.json();
+
+    if (res.ok) {
+      showAlert("Retrain selesai!", "success");
+    } else {
+      showAlert(data.message || "Retrain gagal!", "danger");
+    }
+
+    // Aktifkan kembali tombol
+    btn.disabled = false;
+    btn.innerHTML = `<i class="bi bi-cpu me-1"></i> Retrain Model`;
+  }
+
+  // -----------------------------
+  // ALERT
+  // -----------------------------
+  function showAlert(message, type) {
+    const alertBox = document.getElementById("alertBox");
+    alertBox.className = `alert alert-${type}`;
+    alertBox.textContent = message;
+    alertBox.classList.remove("d-none");
+    setTimeout(() => alertBox.classList.add("d-none"), 3000);
+  }
+
+  // === NIGHT MODE ===
+  const modeBtn = document.getElementById("modeBtn");
+  if (modeBtn) {
+    modeBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      localStorage.setItem("dashboardMode", document.body.classList.contains("dark") ? "dark" : "light");
+    });
+  }
+
+  window.addEventListener("load", () => {
+    if (localStorage.getItem("dashboardMode") === "dark") {
+      document.body.classList.add("dark");
+      if (modeBtn) modeBtn.checked = true;
+    }
+    loadTableData();
+  });
+</script>

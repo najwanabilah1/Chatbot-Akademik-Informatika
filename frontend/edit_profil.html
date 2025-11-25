@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/edit_profil.css">
+</head>
+<body>
+
+  <!-- Tombol Back di ujung kanan layar -->
+  <button class="back-btn" onclick="window.location.href='chatbot.html'">←</button>
+
+  <div class="profile-wrapper">
+    <div class="profile-header">
+      <div class="user-info">
+        <img id="userPhoto" class="avatar" src="assets/img/default-avatar.png" alt="Profile Photo">
+        <div class="user-text">
+          <h2 id="userName">Loading...</h2>
+          <p id="userNpm">-</p>
+        </div>
+      </div>
+      <button id="editBtn" class="edit-btn">Edit</button>
+    </div>
+
+    <form id="profileForm" class="profile-form" enctype="multipart/form-data">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Your Full Name" readonly>
+      </div>
+
+      <div class="form-group">
+        <label>NPM</label>
+        <input type="text" id="npm" readonly>
+      </div>
+
+      <div class="form-group">
+        <label>Password (kosongkan jika tidak diubah)</label>
+        <input type="password" id="password" placeholder="New Password" readonly>
+      </div>
+
+      <div class="form-group">
+        <label>Profile Photo</label>
+        <input type="file" id="photo" accept="image/*" disabled>
+      </div>
+
+      <div class="center-btn">
+        <button type="submit" id="saveBtn" class="save-btn hidden">Simpan Perubahan</button>
+      </div>
+    </form>
+    <!-- Mobile-only edit button: shown on small screens and triggers same edit behavior -->
+    <div class="mobile-edit-container">
+      <button id="editBtnMobile" class="edit-btn mobile-only">Edit</button>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:5000/api";
+    const localUser = JSON.parse(localStorage.getItem("userData"));
+    if (!localUser) {
+      alert("Silakan login terlebih dahulu.");
+      window.location.href = "login.html";
+    }
+
+    const nameInput = document.getElementById("name");
+    const npmInput = document.getElementById("npm");
+    const passwordInput = document.getElementById("password");
+    const photoInput = document.getElementById("photo");
+    const saveBtn = document.getElementById("saveBtn");
+    const editBtn = document.getElementById("editBtn");
+
+    async function loadProfile() {
+      try {
+        const res = await fetch(`${API_BASE}/profile/${localUser.npm}`);
+        const data = await res.json();
+
+        document.getElementById("userName").textContent = data.name || "-";
+        document.getElementById("userNpm").textContent = data.npm || "-";
+        nameInput.value = data.name || "";
+        npmInput.value = data.npm || "";
+
+        const photoURL = data.photo
+          ? `${API_BASE.replace('/api', '')}/static/uploads/profile/${data.photo}`
+          : "assets/img/default-avatar.png";
+        document.getElementById("userPhoto").src = photoURL;
+      } catch {
+        alert("Gagal memuat data profil");
+      }
+    }
+
+    // Cache mobile button reference (may be null on desktop)
+    const editBtnMobile = document.getElementById('editBtnMobile');
+
+    editBtn.addEventListener("click", () => {
+      // use trimmed comparison to avoid whitespace issues
+      const isEditing = (editBtn.textContent || '').trim() === "Edit";
+      if (isEditing) {
+        nameInput.removeAttribute("readonly");
+        passwordInput.removeAttribute("readonly");
+        photoInput.removeAttribute("disabled");
+        saveBtn.classList.remove("hidden");
+        editBtn.textContent = "Batal";
+        if (editBtnMobile) editBtnMobile.textContent = "Batal";
+      } else {
+        nameInput.setAttribute("readonly", true);
+        passwordInput.setAttribute("readonly", true);
+        photoInput.setAttribute("disabled", true);
+        saveBtn.classList.add("hidden");
+        editBtn.textContent = "Edit";
+        if (editBtnMobile) editBtnMobile.textContent = "Edit";
+        loadProfile();
+      }
+    });
+    if (editBtnMobile) {
+      editBtnMobile.addEventListener('click', (e) => {
+        e.preventDefault();
+        editBtn.click();
+      });
+    }
+
+    document.getElementById("profileForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData();
+      formData.append("name", nameInput.value);
+      if (passwordInput.value) formData.append("password", passwordInput.value);
+      if (photoInput.files[0]) formData.append("photo", photoInput.files[0]);
+
+      const res = await fetch(`${API_BASE}/profile/${localUser.npm}`, { method: "PUT", body: formData });
+      const data = await res.json();
+
+      if (res.ok) {
+        alert("Profil berhasil diperbarui!");
+        editBtn.textContent = "Edit";
+        saveBtn.classList.add("hidden");
+        nameInput.setAttribute("readonly", true);
+        passwordInput.setAttribute("readonly", true);
+        photoInput.setAttribute("disabled", true);
+        loadProfile();
+      } else {
+        alert("Gagal memperbarui profil: " + (data.error || "Terjadi kesalahan."));
+      }
+    });
+
+    window.addEventListener("load", loadProfile);
+  </script>
+</body>
+</html>

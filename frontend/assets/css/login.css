@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Halaman Login */
+body.login-page {
+  background: url('../img/rektoratunib.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Kartu Login */
+.card-login {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 320px;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.card-login input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.card-login button {
+  width: 108%;
+  background: #0023c4;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-login button:hover {
+  background: #0017a0;
+}
+
+.signup-text a.link {
+  color: #0023c4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-text a.link:hover {
+  text-decoration: underline;
+}

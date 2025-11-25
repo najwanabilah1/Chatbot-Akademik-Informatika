@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/signup.css">
+</head>
+<body>
+
+  <div class="signup-container">
+    <!-- Kiri: Form -->
+    <div class="form-section">
+      <div class="form-content">
+        <img src="assets/img/logochatbot.png" alt="Logo" class="logo">
+        <h2 id="signupTitle" class="title">Get Started Now</h2>
+
+        <form id="signupForm" onsubmit="handleSignup(event)" role="form" aria-labelledby="signupTitle">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required aria-required="true" aria-label="Name">
+          </div>
+
+          <div class="mb-3">
+            <label for="npm" class="form-label">NPM</label>
+            <input type="text" id="npm" class="form-control" placeholder="Enter your NPM" required aria-required="true" aria-label="NPM">
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter your password" required aria-required="true" aria-label="Password">
+          </div>
+
+          <div class="mb-3">
+            <label for="photo" class="form-label">Profile Photo</label>
+            <input type="file" id="photo" class="form-control" accept="image/*" aria-label="Profile Photo">
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="terms" required aria-required="true">
+            <label class="form-check-label" for="terms">
+              I agree to the <a href="#" class="link">terms & policy</a>
+            </label>
+          </div>
+
+          <button type="submit" class="btn-signup" aria-label="Signup">Signup</button>
+
+          <p class="text-center mt-3 signup-note">
+            Sudah punya akun? <a href="login.html" class="link">Login sekarang</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Kanan -->
+    <div class="image-section">
+      <img src="assets/img/rektoratunib.jpg" alt="Campus" class="campus-img">
+    </div>
+  </div>
+
+  <!-- SCRIPT FIX -->
+  <script>
+    async function handleSignup(event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const npm = document.getElementById("npm").value.trim();
+      const password = document.getElementById("password").value.trim();
+      const photo = document.getElementById("photo").files[0];
+
+      if (!name || !npm || !password) {
+        alert("Semua field wajib diisi!");
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("npm", npm);
+      formData.append("password", password);
+      if (photo) formData.append("photo", photo);
+
+      try {
+        const res = await fetch("http://127.0.0.1:5000/api/register", {
+          method: "POST",
+          body: formData
+        });
+
+        let data = {};
+        try {
+          data = await res.clone().json();
+        } catch (err) {
+          console.warn("Response bukan JSON valid:", err);
+        }
+
+        if (res.ok) {
+          alert("Sign Up berhasil! Anda akan diarahkan ke halaman Login.");
+          window.location.href = "login.html";
+        } else {
+          alert("Gagal mendaftar: " + (data.error || "Terjadi kesalahan."));
+        }
+
+      } catch (err) {
+        console.error(err);
+        alert("Gagal terhubung ke server.");
+      }
+    }
+  </script>
+
+</body>
+</html>

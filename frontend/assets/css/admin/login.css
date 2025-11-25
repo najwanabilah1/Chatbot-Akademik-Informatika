@@ -1,0 +1,86 @@
+/* Reset & Override Bootstrap */
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Poppins', sans-serif !important;
+  box-sizing: border-box;
+}
+
+/* Background halaman login */
+body.login-page {
+  background: url('../../img/rektoratunib.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Kartu login */
+.card-login {
+  background: rgba(255, 255, 255, 0.88);
+  padding: 45px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  width: 350px;
+  max-width: 90%;
+  position: relative;
+  left: -10px; /* ⬅️ sedikit geser ke kiri supaya pas di tengah */
+}
+
+/* Logo */
+.logo {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+/* Judul */
+.card-login h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* Input */
+.card-login input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc !important;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+/* Tombol login */
+.card-login button {
+  width: 100%;
+  background: #0023c4 !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: none !important;
+}
+
+.card-login button:hover {
+  background: #0017a0 !important;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 480px) {
+  .card-login {
+    width: 90%;
+    padding: 30px 25px;
+    left: 0;
+  }
+}
