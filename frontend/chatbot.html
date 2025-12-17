@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Chatbot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/chatbot.css" />
+</head>
+
+<body>
+  <div class="chat-wrapper">
+    
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <!-- Bagian atas: Profil -->
+      <div class="sidebar-top">
+        <div class="user-profile" id="profileLink">
+          <img id="userPhoto" src="assets/img/default-avatar.png" alt="Profile" class="avatar" />
+          <div class="user-info">
+            <h4 id="username">User</h4>
+            <p id="npm">-</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bagian tengah: Scrollable history -->
+      <div class="sidebar-middle">
+        <button id="historyBtn" class="menu-item">
+          <span>History</span>
+          <span class="arrow">▾</span>
+        </button>
+        <div id="historyList" class="history-list"></div>
+      </div>
+
+      <!-- Bagian bawah: Tetap diam -->
+      <div class="menu-bottom">
+        <button id="helpBtn" class="menu-item">Help Center</button>
+        <button id="logoutBtn" class="menu-item logout">Log Out</button>
+        <div class="nightmode-container">
+          <span>Nightmode</span>
+          <label class="switch">
+            <input type="checkbox" id="modeBtn">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </aside>
+
+    <!-- CHAT AREA -->
+    <main class="chat-area">
+      <div class="chat-header">
+          <button id="sidebarToggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+          <img src="assets/img/logochatbot.png" alt="Logo" class="logo" />
+        <h2>Ask our AI anything</h2>
+      </div>
+
+      <!-- Chat scroll -->
+      <div id="chatContainer" class="chat-container"></div>
+
+      <!-- Input tetap -->
+      <div class="chat-input fixed-input">
+        <input id="questionInput" type="text" placeholder="Ask me anything..." />
+        <button id="sendBtn">➤</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- overlay for mobile sidebar -->
+  <div id="sidebarOverlay" class="sidebar-overlay" aria-hidden="true"></div>
+
+
+ <script>
+  const usernameEl = document.getElementById("username");
+  const npmEl = document.getElementById("npm");
+  const userPhoto = document.getElementById("userPhoto");
+  const profileLink = document.getElementById("profileLink");
+  const modeBtn = document.getElementById("modeBtn");
+  const logoutBtn = document.getElementById("logoutBtn");
+  const helpBtn = document.getElementById("helpBtn");
+  const historyBtn = document.getElementById("historyBtn");
+  const historyList = document.getElementById("historyList");
+  const chatContainer = document.getElementById("chatContainer");
+  const input = document.getElementById("questionInput");
+  const sendBtn = document.getElementById("sendBtn");
+
+  let currentSessionId = localStorage.getItem("currentSessionId") || null;
+  const API_BASE = "http://127.0.0.1:5000/api";
+
+  // ==== Ambil user ====
+  const localUser = JSON.parse(localStorage.getItem("userData"));
+  if (!localUser) window.location.href = "login.html";
+
+  fetch(`${API_BASE}/profile/${localUser.npm}`)
+    .then(res => res.json())
+    .then(data => {
+      usernameEl.textContent = data.name || localUser.name;
+      npmEl.textContent = data.npm || localUser.npm;
+      userPhoto.src = data.photo
+        ? `${API_BASE.replace('/api', '')}/static/uploads/profile/${data.photo}`
+        : "assets/img/default-avatar.png";
+    });
+
+  // ==== Tambah pesan ====
+  function addMessage(sender, text) {
+    const msgDiv = document.createElement("div");
+    msgDiv.className = `message ${sender}`;
+    msgDiv.innerHTML = `<div class="bubble">${text}</div>`;
+    chatContainer.appendChild(msgDiv);
+    msgDiv.scrollIntoView({ behavior: "smooth", block: "end" });
+  }
+
+  // ==== Buat sesi baru ====
+  async function createChatSession() {
+    try {
+      const res = await fetch(`${API_BASE}/chat/session`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ npm: localUser.npm })
+      });
+      const data = await res.json();
+      currentSessionId = data.session_id;
+      localStorage.setItem("currentSessionId", currentSessionId);
+    } catch (err) {
+      console.error("Gagal membuat session:", err);
+    }
+  }
+
+  // ==== Kirim pertanyaan ====
+  async function sendQuestion() {
+    const question = input.value.trim();
+    if (!question) return;
+
+    // Kalau belum punya session, buat dulu
+    if (!currentSessionId) await createChatSession();
+
+    addMessage("user", question);
+    input.value = "";
+    addMessage("bot", "<i>Sedang memproses...</i>");
+
+    try {
+      const res = await fetch(`${API_BASE}/chat`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ pertanyaan: question, 
+          npm: localUser.npm })
+      });
+      const data = await res.json();
+      chatContainer.lastChild.remove();
+
+      const answer = data.jawaban || data.error || "⚠️ Tidak ada respon dari server.";
+      addMessage("bot", answer);
+
+      // Simpan pesan
+      await fetch(`${API_BASE}/chat/message`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          session_id: currentSessionId,
+          sender: "user",
+          message: question
+        })
+      });
+
+      await fetch(`${API_BASE}/chat/message`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          session_id: currentSessionId,
+          sender: "bot",
+          message: answer
+        })
+      });
+    } catch (err) {
+      chatContainer.lastChild.remove();
+      addMessage("bot", "⚠️ Gagal terhubung ke server backend.");
+    }
+  }
+
+  // ==== Muat daftar riwayat ====
+  async function loadSessions() {
+    try {
+      const res = await fetch(`${API_BASE}/chat/history/${localUser.npm}`);
+      const data = await res.json();
+
+      if (data.length === 0) {
+        historyList.innerHTML = "<p class='empty'>Belum ada percakapan.</p>";
+        return;
+      }
+
+      historyList.innerHTML = data.map(s => `
+        <div class='history-item' data-id='${s.session_id}'>
+          Percakapan ${new Date(s.created_at).toLocaleString()}
+        </div>
+      `).join("");
+
+      // Klik salah satu history
+      document.querySelectorAll(".history-item").forEach(item => {
+        item.addEventListener("click", e => {
+          e.stopPropagation();
+          const id = item.getAttribute("data-id");
+          const session = data.find(s => s.session_id == id);
+          if (!session) return;
+          chatContainer.innerHTML = "";
+          session.messages.forEach(m => addMessage(m.sender, m.message));
+          currentSessionId = id;
+          localStorage.setItem("currentSessionId", id);
+          historyList.classList.remove("show");
+        });
+      });
+    } catch (err) {
+      console.error("Gagal memuat history:", err);
+    }
+  }
+
+  // ==== Event ====
+  sendBtn.addEventListener("click", sendQuestion);
+  input.addEventListener("keypress", e => e.key === "Enter" && sendQuestion());
+  historyBtn.addEventListener("click", e => {
+    e.stopPropagation();
+    loadSessions();
+    historyList.classList.toggle("show");
+  });
+
+  // Sidebar toggle for mobile
+  const sidebar = document.querySelector('.sidebar');
+  const sidebarToggle = document.getElementById('sidebarToggle');
+  const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+  function openSidebar() {
+    sidebar.classList.add('open');
+    sidebarOverlay.classList.add('visible');
+    sidebarOverlay.setAttribute('aria-hidden', 'false');
+  }
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    sidebarOverlay.classList.remove('visible');
+    sidebarOverlay.setAttribute('aria-hidden', 'true');
+  }
+
+  sidebarToggle && sidebarToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (sidebar.classList.contains('open')) closeSidebar(); else openSidebar();
+  });
+
+  sidebarOverlay && sidebarOverlay.addEventListener('click', closeSidebar);
+
+  // close sidebar when resizing to desktop
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) closeSidebar();
+  });
+
+  document.addEventListener("click", e => {
+    if (!historyList.contains(e.target) && !historyBtn.contains(e.target)) {
+      historyList.classList.remove("show");
+    }
+  });
+
+  profileLink.addEventListener("click", () => window.location.href = "edit_profil.html");
+  modeBtn.addEventListener("click", () => document.body.classList.toggle("dark"));
+  helpBtn.addEventListener("click", () => alert("Silakan hubungi help center di: help@unib.ac.id"));
+  logoutBtn.addEventListener("click", () => {
+    if (confirm("Apakah Anda yakin ingin logout?")) {
+      localStorage.clear();
+      window.location.href = "index.html";
+    }
+  });
+
+  // ==== Saat halaman pertama kali dimuat ====
+  // Tidak langsung buat session baru
+  // Kalau ada session yang tersimpan, bisa lanjut percakapan sebelumnya
+  window.addEventListener("load", async () => {
+    if (currentSessionId) {
+      // Muat pesan dari session aktif
+      try {
+        const res = await fetch(`${API_BASE}/chat/messages/${currentSessionId}`);
+        const data = await res.json();
+        data.forEach(m => addMessage(m.sender, m.message));
+      } catch (err) {
+        console.error("Gagal memuat pesan lama:", err);
+      }
+    }
+  });
+</script>

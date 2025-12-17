@@ -1,0 +1,537 @@
+1. Kementerian adalah Kementerian Pendidikan dan Kebudayaan.
+2. Universitas adalah Universitas Bengkulu.
+3. Rektor adalah Rektor Universitas Bengkulu.
+4. Dosen adalah pendidik profesional dan ilmuwan dengan tugas utama mentransformasikan, mengembangkan, dan menyebarluaskan Ilmu Pengetahuan dan Teknologi melalui Pendidikan, Penelitian, dan Pengabdian kepada Masyarakat.
+5. Mahasiswa adalah peserta didik yang terdaftar di Universitas Bengkulu.
+6. Fakultas adalah himpunan sumber daya pendukung yang menyelenggarakan dan mengelola pendidikan akademik, vokasi, dan atau profesi dalam satu atau beberapa pohon/kelompok ilmu pengetahuan dan teknologi di Universitas.
+7. Jurusan/Bagian merupakan unit di bawah Fakultas yang terdapat dalam Perguruan Tinggi yang mengelola sumber daya akademik.
+8. Program Studi selanjutnya disingkat prodi adalah kesatuan kegiatan pendidikan dan Pembelajaran yang memiliki Kurikulum dan metode Pembelajaran tertentu dalam satu jenis pendidikan akademik, pendidikan profesi, dan/atau pendidikan vokasi.
+9. Peraturan akademik adalah ketentuan tentang segala hal yang mengatur tata cara penyelenggaraan proses kegiatan pendidikan dan pembelajaran, dan kaitannya dengan penelitian dan pengabdian pada masyarakat.
+10. Kerangka Kualifikasi Nasional Indonesia, yang selanjutnya disingkat KKNI, adalah Kerangka Penjenjangan Kualifikasi Kompetensi yang dapat menyandingkan, menyetarakan, dan mengintegrasikan antara bidang pendidikan dan bidang pelatihan kerja serta pengalaman kerja dalam rangka pemberian pengakuan kompetensi kerja sesuai dengan struktur pekerjaan di berbagai sektor.
+11. Satuan kredit semester (sks) adalah takaran waktu kegiatan belajar yang dibebankan pada mahasiswa per minggu per semester dalam proses pembelajaran melalui berbagai bentuk pembelajaran atau besarnya pengakuan atas keberhasilan usaha mahasiswa dalam mengikuti kurikuler di suatu prodi.
+12. Semester adalah satuan waktu kegiatan yang terdiri atas 16 (enam belas) sampai dengan 19 (sembilan belas) minggu kuliah tatap muka atau kegiatan terjadwal lainnya, berikut kegiatan iringannya, termasuk 2 (dua) sampai 3 (tiga) minggu kegiatan penilaian.
+13. Nilai kredit adalah ukuran beban studi mahasiswa dan beban tugas mengajar tenaga pengajar yang dinyatakan dengan sks.
+14. Laporan Tugas Akhir (LTA) adalah karya tulis yang dihasilkan oleh mahasiswa melalui metode ilmiah sebagai syarat untuk menyelesaikan studi program vokasi.
+15. Skripsi adalah karya tulis hasil penelitian yang dihasilkan oleh mahasiswa melalui metode ilmiah sebagai syarat untuk menyelesaikan studi program Sarjana.
+16. Tesis adalah karya tulis hasil penelitian yang dihasilkan oleh mahasiswa melalui metode ilmiah sebagai syarat untuk menyelesaikan studi program Magister.
+17. Disertasi adalah karya tulis hasil penelitian yang dihasilkan oleh mahasiswa melalui metode ilmiah sebagai syarat untuk menyelesaikan studi program Doktor.
+18. Kurikulum adalah seperangkat rencana dan pengaturan mengenai capaian pembelajaran, bahan kajian, proses, dan penilaian yang digunakan sebagai pedoman penyelenggaraan prodi.
+19. Capaian pembelajaran adalah kemampuan yang diperoleh melalui internalisasi pengetahuan, sikap, ketrampilan, kompetensi, dan akumulasi pengalaman kerja.
+20. Ijazah adalah dokumen yang diberikan kepada lulusan pendidikan akademik dan pendidikan vokasi sebagai pengakuan terhadap prestasi belajar dan/atau penyelesaian prodi terakreditasi yang diselenggarakan oleh perguruan tinggi.
+21. Transkrip akademik adalah kumpulan nilai mata kuliah kumulatif yang telah ditempuh.
+22. Surat Keterangan Pendamping Ijazah yang selanjutnya disingkat SKPI adalah dokumen yang memuat informasi tentang pemenuhan kompetensi lulusan dalam suatu Program Pendidikan Tinggi.
+23. Sertifikat Kompetensi adalah dokumen yang memuat pernyataan mengenai kompetensi lulusan sesuai dengan keahlian dalam cabang ilmunya dan/atau memiliki prestasi di luar prodinya.
+24. Sertifikat Profesi adalah dokumen yang memuat pernyataan mengenai pengakuan untuk melakukan praktik profesi yang diperoleh lulusan pendidikan profesi dalam suatu Program Pendidikan Tinggi.
+25. Gelar adalah sebutan yang diberikan kepada lulusan pendidikan akademik, pendidikan vokasi, pendidikan profesi, dan pendidikan spesialis.
+26. Program Jalur Cepat (Fast Track) adalah program pendidikan yang diselenggarakan Universitas untuk mempercepat penyelesaian studi lanjut pada peserta didik yang berprestasi akademik tinggi dan memenuhi syarat tertentu.
+27. Mata Kuliah Alternatif adalah mata kuliah yang bisa diambil oleh mahasiswa di luar prodinya.
+28. Blended Learning adalah metode pembelajaran yang dilakukan dengan mengkombinasikan pelaksanaan pembelajaran tatap muka di kelas dengan pembelajaran interaktif dalam jaringan (daring) tanpa mengurangi kualitas pembelajaran.
+29. Tujuan peraturan penyelenggaraan akademik ini adalah a).
+30. Sebagai pedoman pelaksanaan penyelenggaraan kegiatan pendidikan dan pembelajaran selingkung Universitas; b).
+31. Sebagai acuan dalam menyusun regulasi turunannya yang berkaitan dengan akademik;
+32. Sasaran peraturan penyelenggaraan akademik ini adalah: a).
+33. Mahasiswa dapat belajar sesuai dengan standar mutu yang ditetapkan, tepat waktu dan hasil memuaskan; b).
+34. Dosen dapat mengajar sesuai dengan standar mutu yang ditetapkan dan dapat mengevaluasi hasil pembelajaran secara terukur; c).
+35. Unit pengampu kegiatan pembelajaran dapat melaksanakan tugas menyelenggarakan proses pembelajaran dengan efektif dan efisien, terukur dan menghasilkan lulusan dengan kompetensi yang ditetapkan;
+36. Kurikulum yang berlaku dapat berupa kegiatan perkuliahan, praktikum, studi lapangan, penelitian, dan pengabdian kepada masyarakat;
+37. Kurikulum bertujuan membekali dan mengarahkan mahasiswa untuk mencapai keahlian, pengetahuan, kecakapan, keterampilan tertentu, penalaran, moralitas dan etika tinggi yang dilaksanakan pada jenjang pendidikan tertentu;
+38. Kurikulum berfungsi untuk mewujudkan tujuan pendidikan, pengembangan ilmu pengetahuan, teknologi dan seni;
+39. Kurikulum berpedoman pada ketentuan peraturan perundang-undangan yang berlaku;
+40. Kurikulum dapat ditinjau kembali sesuai kebutuhan dan perkembangan ilmu pengetahuan, teknologi, dan seni;
+41. Kurikulum yang berlaku ditetapkan dengan Keputusan Rektor;
+42. Setiap prodi wajib menyusun kurikulum, melaksanakan, dan mengevaluasi pelaksanaan kurikulum mengacu pada KKNI bidang pendidikan tinggi sesuai dengan kebijakan, regulasi, dan panduan tentang penyusunan kurikulum prodi;
+43. Kurikulum suatu prodi disusun oleh tim yang ditetapkan berdasarkan Surat Keputusan Rektor yang terdiri dari personal yang memiliki bidang ilmu yang sesuai dengan kurikulum yang akan disusun;
+44. Perubahan kurikulum tentang mata kuliah Universitas ditetapkan dengan keputusan Rektor setelah mendapat pertimbangan Senat Universitas;
+45. Pedoman penyusunan dan tatacara perubahan kurikulum yang berlaku ditetapkan dalam Surat Keputusan Rektor setelah mendapat pertimbangan Senat Universitas;
+46. Dalam pedoman penyusunan kurikulum sekurang-kurangnya mengatur tentang tatacara:
+47. penyusunan dan/atau perubahan kurikulum
+48. penentuan nama dan Kode Mata Kuliah terdiri dari 6 karakter; 3 karakter pertama dalam bentuk huruf menyatakan kode kelompok mata kuliah Universitas, Fakultas, Prodi dan Mata Kuliah Alternatif; 3 karakter selanjutnya dalam bentuk angka menyatakan penomoran mata kuliah (1 karakter pertama menunjukkan tahun penawaran mata kuliah dan 2 karakter berikutnya menunjukkan urutan mata kuliah)
+49. penetapan bobot sks mata kuliah
+50. ketentuan mata kuliah praktikum yang ada praktikumnya
+51. penyusunan silabus dan Rencana Pembelajaran Semester mata kuliah
+52. penyusunan mata kuliah prasyarat, dan
+53. pelaksanaan evaluasi
+54. Struktur Mata Kuliah dalam kurikulum terdiri dari mata kuliah Universitas, Fakultas, Prodi dan Mata Kuliah Alternatif;
+55. Mata Kuliah Universitas adalah : Pendidikan Agama : 3 (1-2) sks 
+Pancasila : 2 (1-1) sks
+Pendidikan Kewarganegaraan : 2 (1-1) sks
+Bahasa Indonesia : 3 (1-2) sks
+Kuliah Kerja Nyata/Kegiatan lain yang disetarakan : 4 (0-4) sks
+Kewirausahaan : 2(1-1) sks
+ahasa Inggris : 2 (1-1) sks
+Komputer dan Pemrograman (Coding) : 3 (1-2) sks
+65. Mata Kuliah Universitas dapat ditambah atau dikurangi sesuai dengan perkembangan ilmu pengetahuan, teknologi dan seni (IPTEKS) melalui keputusan Rektor setelah mendapat pertimbangan dari Senat Universitas;
+66. Mata Kuliah Universitas Pendidikan Agama, Pancasila, dan Kewarganegaraan harus memiliki muatan materi bela negara, antikorupsi, antiradikalisme, anti- narkoba dan mitigasi bencana;
+67. Penyusunan materi dan monitoring Mata Kuliah Universitas dilaksanakan oleh LPMPP (Lembaga Penjamin Mutu dan Pengembangan Pembelajaran);
+68. Mata Kuliah Universitas, Fakultas, Prodi dan Alternatif ditetapkan dalam kurikulum prodi yang bersangkutan;
+69. Kesatuan rencana beban studi mahasiswa dituangkan dalam kurikulum disertai dengan nilai kredit setiap mata kuliah; Hanya mata kuliah yang tertuang dalam kurikulum dan memiliki nilai kredit tertentu yang dapat ditawarkan kepada mahasiswa;
+70. Beban studi atau sks setiap Prodi memiliki imbangan tertentu antara Mata Kuliah Universitas, Fakultas, Prodi dan Alternatif disesuaikan dengan ketentuan yang berlaku dan kebutuhan masyarakat;
+71. Mahasiswa diperbolehkan mengambil mata kuliah lintas Universitas, Fakultas dan Prodi dengan syarat Mata Kuliah tersebut terdapat di Kurikulum Prodi yang bersangkutan; Tata cara dan persyaratan diatur lebih lanjut dengan peraturan rektor;
+72. Penyelenggaraan proses pembelajaran di Universitas Bengkulu menerapkan sistem kredit semester, sistem blok atau modul terintegrasi atau bentuk lain sesuai dengan kebutuhan dalam memenuhi capaian pembelajaran;
+73. Sistem pembelajaran bertujuan untuk:
+74. memberikan kesempatan kepada mahasiswa agar dapat menyelesaikan studi tepat waktu;
+75. memberikan kesempatan kepada para mahasiswa agar dapat mengikuti kegiatan pendidikan yang sesuai dengan minat, bakat, dan kemampuannya;
+76. mempermudah sistem evaluasi kompetensi mahasiswa.
+77. Sistem pembelajaran yang dianut di Universitas Bengkulu adalah student centred learning yaitu pembelajaran yang berpusat pada mahasiswa;
+78. Pembelajaran yang berpusat pada mahasiswa adalah pembelajaran yang capaian kompetensinya diraih melalui proses pembelajaran yang mengutamakan pengembangan kreativitas, kapasitas, kepribadian, dan kebutuhan mahasiswa, serta mengembangkan kemandirian dalam mencari dan menemukan pengetahuan;
+79. Mata Kuliah alternatif dapat dilakukan di luar Prodi;
+80. Bentuk Pembelajaran mata kuliah alternatif di luar Prodi merupakan proses Pembelajaran yang terdiri atas:
+81. Pembelajaran dalam Prodi lain pada Perguruan Tinggi yang sama;
+82. Pembelajaran dalam Prodi yang sama pada Perguruan Tinggi yang berbeda;
+83. Pembelajaran dalam Prodi lain pada Perguruan Tinggi yang berbeda;
+84. Pembelajaran pada lembaga non-Perguruan Tinggi;
+85. Pembelajaran di industri atau dunia profesi;
+86. Proses Pembelajaran di luar Prodi dilaksanakan berdasarkan perjanjian kerja sama antara Perguruan Tinggi dengan Peguruan Tinggi atau lembaga lain yang terkait dan hasil kuliah diakui melalui mekanisme transfer kredit;
+87. Proses Pembelajaran di luar Prodi sebagaimana dimaksud pada ayat merupakan kegiatan dalam program yang dapat ditentukan oleh Kementerian dan/atau rektor;
+88. Proses Pembelajaran di luar Prodi sebagaimana dimaksud dilaksanakan di bawah bimbingan Dosen;
+89. Pembelajaran di luar barupa a.
+90. Prodi Pembelajaran dalam Prodi lain pada Perguruan Tinggi yang berbeda; b).
+91. Pembelajaran pada lembaga non-Perguruan Tinggi; c).
+92. Pembelajaran di industri atau dunia profesi dilaksanakan hanya bagi program sarjana dan program sarjana terapan di luar bidang kesehatan
+93. Bentuk kegiatan pembelajaran mata kuliah alternatif di luar Prodi dapat berupa :
+94. Pertukaran mahasiswa
+95. Magang/Praktik Kerja
+96. Asistensi mengajar di Satuan Pendidikan
+97. Penelitian/Riset
+98. Proyek kemanusian
+99. Kegiatan wirausaha
+100. Studi/Proyek Independen
+101. Membangun Desa/Kuliah Kerja Nyata Tematik
+102. Syarat dan tata cara pelaksanaan kuliah alternatif selanjutnya dapat diatur dengan peraturan Rektor;
+103. Kuliah dapat dilakukan dengan menggunakan sistem dalam jaringan (daring) yang dapat disetarakan dengan kuliah tatap muka.
+104. Pelaksanaan kuliah dalam jaringan (daring) sebagaimana yang dimaksud pada dilakukan dengan bobot minimal 30% dan maksimal 79% dari jumlah pertemuan yang direncanakan dalam Rencana Pembelajaran Semester (RPS);
+105. Mata Kuliah yang diselenggarakan harus tercantum dalam kurikulum sesuai dengan kegiatan akademik yang terjadwal dalam semester yang berjalan dan dicantumkan dalam Rencana Pembelajaran Semester (RPS) mata kuliah ;
+106. Kuliah daring yang dapat disetarakan harus memenuhi standar minimal sebagai berikut :
+107. standar tenaga pendidik
+108. standar isi pembelajaran
+109. standar kompetensi peserta didik
+110. standar proses pembelajaran
+111. standar pengelolaan pembelajaran
+112. standar pembiayaan
+113. standar sarana dan prasarana
+114. standar penilaian
+115. Satuan kredit semester (sks) pada proses pembelajaran berupa kuliah, responsi, tutorial, seminar, praktikum, praktik studio, praktik bengkel, praktik lapangan, penelitian, pengabdian kepada masyarakat dan/atau proses pembelajaran lain yang sejenis;
+116. Satu (1) sks pada proses pembelajaran berupa kuliah, responsi atau tutorial setara dengan 50 (lima puluh) menit kegiatan akademik tatap muka terjadwal,
+117. 60 (enam puluh) menit kegiatan akademik terstruktur ditambah dengan 60 (enam puluh) menit kegiatan akademik mandiri per minggu;
+118. Satu (1) sks pada proses pembelajaran pada praktikum, praktik studio, praktik bengkel, praktik lapangan, penelitian, pengabdian kepada masyarakat dan/atau proses pembelajaran lain yang sejenis, pelaksanaannya setara dengan 170 (seratus tujuh puluh) menit per minggu per semester;
+119. Satu (1) sks pada proses pembelajaran berupa seminar atau bentuk lain yang sejenis berarti kegiatan tatap muka pelaksanaanya setara dengan100 (seratus) menit per minggu per semester dan kegiatan mandiri 70 (tujuh puluh) menit per minggu per semester;
+120. Perhitungan beban belajar dalam sistem blok, modul, atau bentuk lain ditetapkan sesuai dengan kebutuhan dalam memenuhi capaian pembelajaran.
+121. Beban Studi mahasiswa program vokasi dan sarjana pada semester 1 (satu) dan 2 (dua) sesuai dengan paket kurikulum prodi yang berlaku pada semester tersebut;
+122. Beban Studi program vokasi dan program sarjana, bagi mahasiswa yang memperoleh Indeks Prestasi Semester (IPS) ≥3,00 (tiga koma nol nol) dan memenuhi etika akademik, setelah 2 (dua) semester pada tahun akademik yang pertama dapat mengambil maksimum 24 (dua puluh empat) Satuan Kredit Semester per semester pada semester berikut
+123. Beban studi program vokasi diploma tiga (D-3) paling sedikit 108 (seratus delapan) sks dan sebanyak-banyaknya 120 (seratus dua puluh) sks, termasuk LTA, yang dijadwalkan dapat ditempuh sekurang-kurangnya dalam waktu 5 (lima) semester dan sebanyak-banyaknya dalam waktu 10 (sepuluh) semester;
+124. Beban studi program vokasi diploma empat (D-4) paling sedikit 144 (seratus empat puluh empat) sks dan sebanyak-banyaknya 160 (seratus enam puluh) sks, termasuk LTA, yang dijadwalkan dapat ditempuh sekurang-kurangnya dalam waktu 7 (Tujuh) semester dan sebanyak-banyaknya dalam waktu 14 (empat belas) semester;
+125. Beban studi program sarjana paling sedikit 144 (seratus empat puluh empat) sks dan sebanyak-banyaknya 160 (seratus enam puluh) sks termasuk skripsi, yang dijadwalkan dapat ditempuh sekurang-kurangnya dalam waktu 7 (tujuh) semester dan sebanyak-banyaknya dalam waktu 14 (empat belas) semester;
+126. Beban studi program Profesi setelah menyelesaikan program sarjana, atau program diploma empat/sarjana terapan paling sedikit 24 (dua puluh empat) sks, yang dijadwalkan dapat ditempuh paling lama dalam waktu 6 (enam) semester, kecuali ditentukan oleh peraturan lainnya;
+127. Beban studi program Magister paling sedikit 36 (tiga puluh enam) sks dan sebanyak-banyaknya 44 (empat puluh empat) sks untuk prodi yang tidak sebidang, yang dijadwalkan dapat ditempuh sekurang-kurangnya dalam waktu 4 (empat) semester dan sebanyak-banyaknya dalam waktu 8 (delapan) semester;
+128. Beban studi program Doktor paling sedikit 42 (empat puluh dua) sks untuk sebidang dan sebanyak-banyaknya 52 (lima puluh dua) sks, yang dijadwalkan dapat ditempuh sekurang-kurangnya dalam waktu 6 (enam) semester dan sebanyak-banyaknya dalam waktu 14 (empat belas) semester;
+129. Bagi mahasiswa yang tidak dapat menyelesaikan studi dalam batas waktu maksimal otomatis dinyatakan drop out (DO) yang ditetapkan dengan Keputusan Rektor;
+130. Mahasiswa yang drop out (DO) diberi transkrip sesuai prestasi yang bersangkutan;
+131. Mahasiswa dapat mengajukan permohonan untuk memperoleh transfer kredit atas mata kuliah yang diperoleh dari suatu prodi, baik prodi di dalam Universitas maupun perguruan tinggi negeri lain yang terakreditasi minimal B (Baik Sekali);
+132. Mata kuliah yang dapat ditransferkreditkan berasal dari :
+133. Program pertukaran mahasiswa, Sandwich dan Double Degree;
+134. Program pendidikan yang pernah diikuti sebelumnya baik prodi di dalam Universitas maupun perguruan tinggi lain yang terakreditasi minimal B (Baik Sekali);
+135. Kegiatan lainnya yang dilakukan di lembaga non-Perguruan Tinggi;
+136. Program alih jenjang vokasi dan program jalur cepat (fast track);
+137. Mata kuliah yang dapat ditransferkreditkan harus memenuhi syarat sebagai berikut :
+138. Memiliki kandungan materi yang setara/sama dengan capaian pembelajaran pada mata kuliah yang terdapat dalam kurikulum yang sedang diikuti;
+139. Apabila mata kuliah yang diambil tidak memenuhi kriteria sebagaimana dalam huruf a, tetapi mendukung capaian pembelajaran maka dapat ditransferkreditkan sebagai mata kuliah pilihan;
+140. Prodi yang penyelenggara mata kuliah tersebut memiliki akreditasi minimal B (Baik Sekali) atau lebih tinggi;
+141. Masa berlaku mata kuliah maksimal 3 (tiga) tahun untuk program Sarjana, 2 (dua) tahun untuk program vokasi, 1 (satu) tahun untuk program Profesi dan Pascasarjana dihitung mulai pada saat nilai dikeluarkan oleh prodi asal;
+142. Beban studi yang dapat ditransfer adalah sebanyak-banyaknya 60 (enam puluh) persen dari total beban studi yang diharuskan diambil sesuai dengan kurikulum pada prodi yang diikuti;
+143. Mata kuliah yang ditransferkreditkan diputuskan melalui Keputusan Dekan atas usulan prodi;
+144. Tata cara dan persyaratan untuk transfer kredit dari lembaga non- Perguruan Tinggi sebagaimana disebutkan pada ayat (2) huruf (c) selanjutnya diatur dengan peraturan rektor;
+145. Kewajiban Mahasiswa meliputi :
+146. Membayar UKT/SPP setiap semester dan kewajiban pembayaran lainnya yang diatur dengan peraturan rektor;
+147. Memiliki Nomor Induk Mahasiswa (NIM) yang dikeluarkan oleh Universitas;
+148. Merencanakan perkuliahan tiap semester dengan bimbingan dosen Pembimbing Akademik (PA);
+149. Mengevaluasi kembali hasil capaian belajarnya tiap semester, dan menyesuaikan rencana belajar semester berikutnya berdasarkan capaian hasil belajar yang diperoleh di semester sebelumnya;
+150. Menghadiri kegiatan proses pembelajaran sekurang-kurangnya 80% dari proses pembelajaran yang terjadwal;
+151. Menyampaikan alasan yang sah jika persyaratan kehadiran tidak terpenuhi;
+152. Mengikuti evaluasi pembelajaran mahasiswa, dilakukan oleh dosen dalam bentuk tugas, kuis, ujian tengah semester, dan ujian akhir semester termasuk praktikum pada mata kuliah berpraktikum;
+153. Melakukan pengecekan kebenaran data pokok (Nama,Tanggal lahir, NIM, NIK, Nama Ibu, Jenis Kelamin, Prodi, Status dan data pokok lainnya) dan data akademik (Riwayat Status Kuliah, Riwayat Kuliah dan data akademik lainnya) di situs resmi PDDIKTI dan melaporkan ke bagian terkait jika terdapat kesalahan data untuk diperbaiki;
+154. Mentaati peraturan-peraturan lainnya yang berlaku selingkung Universitas;
+155. Hak Mahasiswa meliputi:
+156. Mendapatkan pelayanan dari unit pengampu kegiatan pembelajaran (Prodi, bagian, jurusan, fakultas, dan universitas) untuk menghilangkan hambatan belajar;
+157. Memilih mata kuliah di luar prodinya sesuai dengan capaian pembelajaran yang ditetapkan;
+158. Mahasiswa memiliki hak mendapat cuti akademik, karena sakit atau alasan lain
+159. Mendapatkan buku Saku, Panduan Akademik dan perlengkapan administratif nya, yaitu jadwal perkuliahan, dan buku bimbingan dan konseling;
+160. Mendapatkan jaket almamater beserta atributnya;
+161. Memperoleh kompetensi yang ditetapkan di dalam kurikulum prodi yang diikuti;
+162. Mendapatkan lembar kerja mahasiswa dari setiap jenis ujian dan tugas yang diberikan;
+163. Melaporkan masalah terkait proses pembelajaran dan mendapatkan penyelesaian dari pihak terkait;
+164. Mendapatkan beasiswa sesuai dengan persyaratan yang ditentukan;
+165. Kalender akademik ditetapkan oleh Rektor;
+166. Kalender akademik diterbitkan oleh universitas sebelum tahun akademik dimulai, kalender akademik dimulai pada minggu kedua bulan Agustus; Kalender akademik mencantumkan semua kegiatan dan jadwal pendidikan dan pengajaran yang berlaku untuk semua jenjang pendidikan;
+167. Program khusus yang karena sesuatu hal tidak dapat mengikuti jadwal kalender akademik di atas harus ditetapkan oleh Rektor.
+168. Kegiatan yang wajib dicantumkan dalam Kalender Akademik meliputi jadwal;
+169. Penerimaan mahasiswa baru;
+170. Pre Test bahasa Inggris bagi mahasiswa baru;
+171. Pembayaran UKT/SPP dan Biaya Pengembangan Institusi (BPI) khusus Jalur Mandiri;
+172. Registrasi mahasiswa baru dan lama;
+173. Pengenalan Kehidupan Kampus (PKK);
+174. Unggah jadwal dan ruang kuliah;
+175. Perwalian, pengisian dan perubahan KRS;
+176. Masa perkuliahan/praktikum/seminar/kerja lapangan;
+177. Ujian tengah semester (UTS)/formatif;
+178. Minggu Tenang;
+179. Ujian akhir semester (UAS)/sumatif;
+180. Penginputan nilai;
+181. Wisuda;
+182. Dies Natalis;
+183. Kuliah Kerja Nyata (KKN) Reguler dan Antar Semester;
+184. Kuliah Antar Semester (KAS);
+185. Pengisian Data PDDIKTI;
+186. Audit Mutu Internal (AMI)
+187. Unib Fair
+188. Kegiatan khusus yang karena sesuatu hal tidak dapat mengikuti jadwal kalender akademik harus ditetapkan oleh Rektor.
+189. Sistem administrasi pengelolaan akademik menggunakan sistem informasi akademik (SIAKAD) Universitas Bengkulu.
+190. Penyampaian laporan Prodi dalam menyelenggarakan program Pembelajaran melalui pangkalan data Pendidikan Tinggi (PDDIKTI).
+191. Pelaksanaan SIAKAD dan PDDIKTI selanjutnya di atur dalam Peraturan Rektor.
+192. Mahasiswa baru berasal dari Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN), Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN) Seleksi Jalur Mandiri atau sebutan lain sesuai dengan peraturan yang berlaku;
+193. SNMPTN atau sebutan lain merupakan proses penerimaan Mahasiswa baru melalui seleksi tanpa tes berdasarkan prestasi akademik siswa setiap semester di SLTA seluruh Indonesia;
+194. SBMPTN atau sebutan lain merupakan proses penerimaan mahasiswa baru melalui tes seleksi secara Nasional;
+195. Seleksi Jalur Mandiri atau sebutan lain merupakan proses penerimaan mahasiswa baru program pascasarjana, profesi, sarjana dan vokasi, melalui tes tertulis dan atau wawancara/praktik oleh universitas;
+196. Mahasiswa baru yang diterima telah dinyatakan lulus SLTA dan untuk lulusan SLTA luar negeri, ijazahnya harus disyahkan oleh pejabat yang berwenang;
+197. Penerimaan mahasiswa baru untuk program profesi dan pascasarjana diatur tersendiri melalui Peraturan Rektor.
+198. Mahasiswa wajib mendaftarkan diri pada setiap semester di Subbagian Registrasi, Bagian Pembelajaran pada Biro Perencanaan, Pembelajaran dan Kemahasiswaan (PPK);
+199. Mahasiswa baru yang diterima wajib mendaftarkan diri dengan menyerahkan syarat-syarat yang telah ditentukan;
+200. Mahasiswa lama yang mendaftar ulang harus menunjukkan kartu mahasiswa dan bukti pembayaran UKT/SPP semester sebelumnya.
+201. Mahasiswa yang mengambil cuti akademik harus menyertakan surat cuti pada saat mendaftar ulang;
+202. Mahasiswa yang terlambat mendaftar ulang diberi perpanjangan waktu paling lama satu minggu dari batas akhir pendaftaran dan kepada yang bersangkutan dibebani biaya keterlambatan 1 % dari besarnya UKT/SPP terakhir;
+203. Mahasiswa yang tidak terdaftar selama 1 (satu) semester tanpa surat bukti cuti dari Rektor masih dapat mendaftar sebagai mahasiswa Universitas Bengkulu pada semester berikutnya dengan membayar UKT/SPP selama yang bersangkutan tidak aktif dan UKT/SPP semester yang akan dijalani;
+204. Mahasiswa yang tidak terdaftar selama 2 (dua) semester berturut-turut dapat aktif kembali apabila memperoleh rekomendasi dari Dekan serta membayar UKT/SPP selama yang bersangkutan tidak aktif dan UKT/SPP semester yang akan dijalani;
+205. Mahasiswa yang tidak terdaftar melebihi 2 (dua) semester tanpa surat bukti cuti akademik dianggap mengundurkan diri dan tidak bisa mendaftar menjadi mahasiswa lagi.
+206. Jumlah sks yang diambil mahasiswa sebagaimana yang dimaksud pada berdasarkan nilai IPS terakhir aktif sebagai mahasiswa;
+207. Mahasiswa yang mengajukan cuti akademik, wajib mengajukan permohonan tertulis kepada Ketua Jurusan/Bagian atau Koordinator Prodi bagi fakultas yang tidak memiliki Jurusan/bagian.
+208. Dekan mengusulkan kepada rektor sesuai dengan jadwal pada Kalender Akademik, untuk kemudian diterbitkan surat izin cuti akademik oleh Rektor;
+209. Cuti akademik mahasiswa diberikan untuk jangka waktu maksimum 2 (dua) semester baik berturut-turut maupun tidak untuk semua jenjang program;
+210. Mahasiswa diperbolehkan mengajukan cuti akademik setelah menempuh perkuliahan selama dua semester;
+211. Mahasiswa yang cuti dari kegiatan akademik dapat aktif kembali sesuai dengan surat cuti yang diterimanya;
+212. Waktu cuti akademik dihitung dalam penentuan batas waktu penyelesaian studi.
+213. Jumlah sks yang diambil setelah cuti akademik berdasarkan nilai IPS terakhir sebelum cuti akademik;
+214. Mahasiswa dalam status cuti akademik tidak berhak mendapatkan layanan akademik dan layanan kemahasiswaan;
+215. Mahasiswa yang mendapatkan beasiswa tidak diperkenankan mengambil cuti akademik;
+216. Perpindahan mahasiswa antar prodi selingkung UNIB diatur dengan ketentuan sebagai berikut :
+217. Memiliki IPK minimal 2,00 dan telah menyelesaikan kegiatan akademik minimal 2 (dua) semester;
+218. Mendapat persetujuan dari Dekan fakultas asal berdasarkan pertimbangan Ketua Jurusan/Ketua Bagian;
+219. Disetujui oleh Dekan dan Ketua Jurusan/Ketua Bagian atau koordinator prodi yang dituju;
+220. Lulus tes yang diselenggarakan oleh Prodi yang dituju;
+221. Kredit yang dimiliki oleh mahasiswa pindahan tersebut dapat dipertimbangkan oleh Koordinator Prodi untuk dipindah alihkan sepanjang sesuai dengan kurikulum prodi yang baru;
+222. Perpindahan mahasiswa antar prodi hanya berlaku satu kali pada awal tahun akademik;
+223. Perpindahan dari program non reguler ke program reguler tidak diperbolehkan;
+224. Masa studi mahasiwa pada ayat (1) pasal ini dihitung sejak diterima di Universitas Bengkulu;
+225. Mahasiswa yang akan pindah ke perguruan tinggi lain harus berstatus aktif dan sudah menempuh studi selama 2 (dua) semester di Universitas Bengkulu; Mahasiswa yang pindah ditetapkan dengan Keputusan Rektor;
+226. Mahasiswa yang telah disetujui oleh Rektor untuk pindah ke perguruan tinggi lain tidak dapat pindah kembali menjadi mahasiswa Universitas Bengkulu.
+227. Universitas menerima mahasiswa pindahan dari perguruan tinggi negeri yang memiliki Prodi yang sama dan atau serumpun dengan Prodi yang ada di Universitas Bengkulu; Universitas dapat menerima atau menolak mahasiswa pindahan dari perguruan tinggi lain dengan mempertimbangkan mutu atau kualitas Universitas atau prodi asal;
+228. Universitas hanya dapat menerima mahasiswa pindahan pada awal tahun akademik;
+229. Mahasiswa pindahan harus memenuhi kriteria sebagai berikut:
+230. Berstatus mahasiswa aktif di perguruan tinggi asal dan terdaftar di PDDIKTI,
+231. Jika telah mengikuti kegiatan akademik selama 2 (dua) semester mahasiswa yang bersangkutan harus sudah menyelesaikan sekurang-kurangnya 30 (tiga puluh) sks dengan IPK sama dengan atau lebih dari 2,50 (dua koma lima nol),
+232. Jika telah mengikuti kegiatan akademik selama 4 (empat) semester mahasiswa yang bersangkutan harus sudah menyelesaikan sekurang- kurangnya 60 (enam puluh) sks dengan IPK sama dengan atau lebih dari 2,50 (dua koma lima nol),
+233. Jika telah mengikuti kegiatan akademik selama 6 (enam) semester mahasiswa yang bersangkutan harus sudah menyelesaikan sekurang- kurangnya 80 (delapan puluh) sks dengan IPK sama dengan atau lebih dari 2,50 (dua koma lima nol),
+234. Jika telah mengikuti kegiatan akademik selama 8 (delapan) semester mahasiswa yang bersangkutan harus sudah menyelesaikan sekurang- kurangnya 100 (seratus) sks dengan IPK sama dengan atau lebih dari 2,50 (dua koma lima nol),
+235. tidak dalam proses dikeluarkan (drop out), sedang mendapat sanksi akademik/etika atau lainnya dari perguruan tinggi negeri asal yang dibuktikan dengan Surat Keterangan dari rektor perguruan tinggi negeri asal;
+236. Mahasiswa yang akan pindah ke Universitas Bengkulu harus mengajukan permohonan kepada Rektor Universitas Bengkulu dengan melampirkan persyaratan-persyaratan
+237. Syarat untuk mahasiswa pindahan adalah harus lulus ujian yang diselenggarakan oleh Prodi yang dituju di Universitas Bengkulu; Mahasiswa pindahan harus mengikuti ketentuan akademik, kurikulum, dan jangka waktu studi yang berlaku di Universitas Bengkulu;
+238. Jangka waktu studi mahasiswa pindahan sesuai dengan batas waktu Prodi yang ditempuhnya di Universitas Bengkulu yang dihitung saat mulai terdaftar pada perguruan tinggi asal sebelum pindah ke Universitas Bengkulu;
+239. Mahasiswa pindahan sebagaimana yang dimaksud ayat (1) dan ditetapkan dengan Keputusan Rektor.
+240. Universitas dapat menerima mahasiswa warga negara asing, sesuai dengan Peraturan perundang-undangan yang berlaku.
+241. Warga negara asing dapat menempuh pendidikan sejak tahun pertama di Universitas Bengkulu maupun pindahan dari perguruan tinggi di luar negeri sesuai persyaratan yang ditentukan;
+242. Seleksi masuk mahasiswa asing adalah melalui ujian masuk yang dilaksanakan khusus untuk itu;
+243. Tata cara dan persyaratan penerimaan mahasiswa asing ditetapkan oleh Peraturan Rektor.
+244. Pengenalan kehidupan kampus bagi Mahasiswa Baru (PKK-MABA Universitas Bengkulu) atau sebutan lain merupakan kegiatan yang wajib diikuti oleh semua mahasiswa baru dan pindahan dengan tujuan untuk memperkenalkan tata- kehidupan kampus yang meliputi;kegiatan akademik, organisasi/kelembagaan dan kemahasiswan di Universitas Bengkulu;
+245. Kegiatan Pengenalan kehidupan kampus wajib mensosialisasikan Peraturan Rektor tentang :
+246. Kode Etik Mahasiswa;
+247. Penyelenggaraan Kegiatan Akademik Program Pendidikan Vokasi, Sarjana, Profesi dan Pascasarjana Universitas Bengkulu;
+248. Kegiatan sebagaimana PKK-MABA dilaksanakan di tingkat Universitas dan Fakultas dengan lama waktu tidak melebihi 4 (empat) hari,yang dilaksanakan atas koordinasi antara bidang kemahasiswaan universitas dan fakultas;
+249. Mahasiswa yang sudah mengikuti kegiatan PKK-MABA berhak memperoleh sertifikat, sertifikat merupakan salah satu syarat untuk memperoleh beasiswa dan keanggotaan di Organisasi Kemahasiswaan (ormawa) baik di tingkat universitas, fakultas, jurusan, maupun prodi;
+250. PKK-MABA Universitas Bengkulu hanya diberlakukan kepada mahasiswa program vokasi dan sarjana;
+251. Jika dipandang perlu, matrikulasi dapat dilaksanakan di tingkat fakultas/jurusan/prodi berupa kegiatan pembelajaran tanpa sks bagi mahasiswa baru yang membutuhkan penyetaraan keilmuan;
+252. Jadwal pelaksanaan matrikulasi di setiap fakultas/jurusan/prodi ditentukan oleh fakultas/jurusan/prodi yang menyelenggarakan.
+253. Setiap mahasiswa wajib mengisi Kartu Rencana Studi (KRS) secara daring sesuai jadwal di dalam kalender akademik.
+254. Pada awal semester, mahasiswa menyusun rencana studi dengan bimbingan dosen Pembimbing Akademik (PA) yang ditetapkan oleh Rektor;
+255. KRS yang telah diisi mahasiswa harus mendapat persetujuan PA secara daring setelah melakukan konsultasi dengan dosen PA.
+256. Jika ada sesuatu hal yang tidak memungkinkan bagi PA menyetujui KRS mahasiswa, pembimbingan dan persetujuan dilakukan oleh ketua Jurusan/Prodi setelah mendapat persetujuan dari PA.
+257. Bagi mahasiswa yang belum mengisi KRS atau belum mendapat persetujan PA sampai batas waktu jadwal perubahan KRS sesuai kalender akademik tidak diperbolehkan mengikuti perkuliahan, ujian dan mendapatkan nilai;
+258. Setiap menjelang awal semester, mahasiswa berhak mendapat Laporan Hasil Studi (LHS) semester sebelumnya secara daring.
+259. LHS menjadi dasar untuk pengisian rencana studi semester berikutnya;
+260. Beban studi yang dapat diambil oleh seorang mahasiswa didasarkan pada hasil studi pada semester sebelumnya atau Indeks Prestasi Semester (IPS) dengan ketentuan :
+261. IPS ≥ 3,00, dapat mengambil maksimum 24 (dua puluh empat) sks
+262. 2,50 ≤ IPS ≤2,99, dapat mengambil maksimum 21 (dua puluh satu) sks
+263. 2,00 ≤ IPS ≤ 2,49, dapat mengambil maksimum 19 (sembilan belas) sks
+264. 1,51 ≤ IPS ≤1,99, dapat mengambil maksimum 16 (enam belas) sks
+265. 1,50 ≤ IPS, dapat mengambil maksimum 13 (tiga belas) sks
+266. Khusus untuk mahasiswa baru, pengambilan SKS pada semester 1 (satu) dan 2 (dua) sesuai dengan jumlah SKS yang disyaratkan pada paket semester tersebut;
+267. Perubahan Rencana Studi hanya dapat dilakukan oleh mahasiswa yang telah mengisi KRS dan telah mendapatkan persetujuan PA sesuai jadwal yang telah ditentukan.
+268. Perubahan Rencana Studi hanya dapat dilaksanakan sesuai kalender akademik, dengan ketentuan telah mendapat persetujuan dari PA;
+269. Perubahan Rencana Studi dilaksanakan dengan mengisi Kartu Perubahan Rencana Studi (KPRS) secara daring yang prosedurnya sama dengan pengisian KRS;
+270. Perubahan Rencana Studi dapat dilakukan untuk membatalkan atau mengganti mata kuliah dengan mata kuliah yang mempunyai sks sama atau kurang atau menambah mata kuliah sepanjang tidak melewati jumlah sks maksimal yang dapat diambil oleh seorang mahasiswa.
+271. Setiap mahasiswa dibimbing oleh seorang Pembimbing Akademik (PA).
+272. Jika PA berhalangan, karena urusan dinas, izin belajar atau alasan lain yang menyebabkan pembimbing tersebut tidak dapat melaksanakan tugasnya, maka tugas dan fungsinya digantikan oleh Koordinator Prodi/Ketua Bagian/Ketua Jurusan/Wakil Dekan Bidang Akademik;
+273. Kelalaian PA dalam melaksanakan tugas dan tanggungjawabnya dapat mengakibatkan pencabutan Surat Keputusan pembimbing Akademik oleh Rektor.
+274. Pembimbing Akademik (PA) yang ditunjuk sekurang-kurangnya dosen dengan jabatan fungsional Asisten Ahli.
+275. PA membimbing mahasiswa sampai mahasiswa tersebut menyelesaikan studi, kecuali dalam kondisi tertentu PA dapat dibebaskan dari tugas bimbingannya;
+276. PA bertugas dan bertanggungjawab untuk:
+277. Membimbing mahasiswa dalam menyusun rencana studi;
+278. Memberikan bimbingan dan nasehat kepada mahasiswa mengenai tata cara belajar yang baik dalam rangka menyelesaikan studi;
+279. Memberikan pertimbangan dan atau persetujuan atas KRS dan perubahan kartu rencana studi dan pengisian KRS yang diubah;
+280. Melayani konsultasi akademik dan non akademik dan menjaga kerahasiaan materi yang dikonsultasikan oleh mahasiswa yang bersifat pribadi dan sepanjang tidak menyangkut pelanggaran atas etika dan hukum yang berlaku;
+281. Memberikan rekomendasi akademik kepada pihak lain tentang mahasiswa bimbingannya jika diperlukan;
+282. Menyediakan waktu untuk berkonsultasi minimal 3 (tiga) kali dalam 1 (satu) semester di kampus;
+283. Mengundang orang tua/wali mahasiswa yang mempunyai masalah dalam proses pembelajaran jika diperlukan.
+284. Perkuliahan semester ganjil dimulai pada minggu kedua bulan Agustus dan berakhir pada minggu kedua Desember tahun akademik berjalan;
+285. Perkuliahan semester genap dimulai pada minggu kedua bulan Januari dan berakhir pada minggu kedua Juni tahun akademik berjalan.
+286. Kuliah Antar Semester (KAS) dilaksanakan untuk membantu mahasiswa memperbaiki nilai mata kuliah yang pernah diambil.
+287. Kuliah antar semester (KAS) merupakan perkuliahan yang dilaksanakan antara semester genap dan ganjil dengan lama waktu penyelenggaraan setara dengan waktu perkuliahan reguler yang dipadatkan dalam waktu 8 (delapan) minggu;
+288. Kuliah antar semester (KAS) hanya dapat diikuti oleh mahasiswa aktif semester berjalan.
+289. Jumlah sks maksimum yang bisa diambil adalah 9 (sembilan) sks.
+290. Perkuliahan antar semester hanya bisa dilaksanakan apabila diikuti oleh sekurang-kurangnya 15 (lima belas) orang.
+291. Apabila tidak terpenuhi, KAS masih dilaksanakan atas izin Dekan.
+292. Pendaftaran KAS dilaksanakan di fakultas dan registrasi dilaksanakan di universitas.
+293. Mahasiswa yang akan mengikuti KAS wajib mengisi Kartu Rencana Studi secara daring dengan prosedur sama dengan pengisian KRS perkuliahan reguler.
+294. Capaian IP KAS tidak menjadi pertimbangan dalam pengambilan sks semester reguler selanjutnya;
+295. Kuliah Antar Semester (KAS) diselenggarakan sama dengan jumlah pertemuan pada perkuliahan semester reguler dan sesuai beban belajar mahasiswa untuk memenuhi capaian pembelajaran yang telah ditetapkan.Pembiayaan
+296. penyelenggaraan Kuliah Antar Semester (KAS) dibebankan kepada mahasiswa yang besarnya ditetapkan sesuai peraturan yang berlaku;
+297. Kuliah Remedial adalah kuliah yang diperuntukkan bagi mahasiswa yang dengan kondisi khusus;
+298. Kondisi khusus untuk melakukan kuliah remedial adalah:
+299. mahasiswa yang sudah 2 (dua) kali tidak lulus mata kuliah tertentu dan masa studinya hampir berakhir;
+300. mahasiswa yang telah mengambil semua mata kuliah kecuali LTA/skripsi/Tesis/Disertasi dan masih memiliki maksimal 2 (dua) mata kuliah yang belum lulus;
+301. mahasiswa yang mengambil mata kuliah atau tidak lulus tetapi tidak ditawarkan lagi karena perubahan kurikulum;
+302. Kuliah tutorial adalah kuliah yang diselenggarakan untuk memenuhi jumlah pertemuan tatap muka dan capaian pembelajaran yang telah ditetapkan.
+303. Kuliah Tutorial dapat dilakukan bagi mahasiswa yang meninggalkan kuliah karena tugas dari Universitas Bengkulu yang dibuktikan dengan bukti tertulis atau institusi lain atas izin Rektor.
+304. Aturan pelaksanaan Kuliah Remedial dan Tutorial dibuat oleh fakultas yang menyelenggarakan.
+305. Pembiayaan penyelenggaraan Remedial dan Tutorial dibebankan kepada mahasiswa yang besarnya ditetapkan sesuai peraturan yang berlaku
+306. Pelaksanaan dan Pengampu mata kuliah remedial dan tutorial ditetapkan dengan keputusan Rektor;
+307. Setiap mata kuliah harus memiliki dosen pengampu dan/atau penanggung jawab/koordinator mata kuliah;
+308. Dosen pengampu dan/atau penanggung jawab mata kuliah berkewajiban untuk melaksanakan dan mengembangkan proses pembelajaran, serta memberikan nilai akhir mata kuliah dimaksud;
+309. Penanggung jawab mata kuliah adalah dosen yang mengkoordinasikan dosen- dosen yang mengampu mata kuliah yang sama dengan jumlah 2 (dua) orang atau lebih;
+310. Penanggung jawab mata kuliah diangkat dan diberhentikan oleh Dekan atas nama rektor berdasarkan usulan Ketua Jurusan/Ketua Bagian/Prodi dengan mempertimbangkan jabatan akademik minimal Lektor Kepala atau kualifikasi pendidikan tertinggi;
+311. Koordinator mata kuliah adalah dosen yang mengkoordinasikan dosen pengampu mata kuliah yang sama yang ditawarkan di beberapa Prodi dalam upaya penjaminan mutu pembelajaran;
+312. Dalam hal tertentu, Dekan atas usul Ketua Jurusan/Ketua Bagian/Kordinator Prodi dapat menunjuk Koordinator mata kuliah yang jabatan fungsionalnya belum Lektor Kepala.
+313. Kelas internasional adalah perkuliahan yang dilaksanakan berdasarkan kurikulum standar internasional dan menggunakan bahasa internasional sebagai Bahasa pengantar;
+314. Prodi dapat menyelenggarakan kelas internasional dengan peserta mahasiswa Indonesia dan/atau mahasiswa asing dengan persyaratan berupa :
+315. Prodi memiliki akreditasi unggul atau akreditasi internasional yang kredibel;
+316. Memiliki mitra perguruan tinggi luar negeri yang dituangkan dalam perjanjian kerjasama;
+317. Memiliki sumber daya akademik yang memadai dan mampu menyelenggarakan pendidikan dan pelayanan dalam bahasa Internasional;
+318. Memiliki kurikulum reguler yang telah dialih bahasakan ke dalam Bahasa internasional;
+319. Mendapat izin dari Rektor setelah mendapat rekomendasi dari Senat Akademik Universitas;
+320. Kurikulum kelas Internasional ditempuh di Prodi penyelenggara minimal 60 % dari beban studi dan selebihnya di perguruan tinggi mitra;
+321. Pelaksanaan perkuliahan di perguruan tinggi mitra dapat dilakukan dengan sistem tatap muka atau dalam jaringan (daring);
+322. Lulusan yang mengikuti kelas internasional berhak mendapatkan ijazah dan transkrip dalam dua Bahasa yakni Bahasa Indonesia dan Bahasa internasional serta dicantumkan dalam Surat Keterangan Pendamping Ijazah (SKPI) sebagai peserta kelas Internasional;
+323. Program Jalur Cepat untuk program sarjana (S1) dan magister (S2) ditempuh dengan masa studi 5 (lima) tahun;
+324. Program Jalur Cepat untuk program magister (S2) dan doktor (S3) ditempuh dengan masa studi 4 (empat) tahun;
+325. Program Jalur Cepat bertujuan untuk memfasilitasi suatu sistem pendidikan khusus bagi mahasiswa jenjang sarjana maupun magister yang berprestasi akademik tinggi dan memiliki tema penelitian yang unggul dan sangat bermanfaat untuk dilanjutkan dalam jenjang setingkat diatasnya untuk lebih meningkatkan kualitas hasil penelitiannya.
+326. Standar proses pembelajaran merupakan kriteria minimal tentang pelaksanaan pembelajaran pada prodi untuk memperoleh capaian pembelajaran lulusan mencakup:
+327. karakteristik proses pembelajaran;
+328. perencanaan proses pembelajaran;
+329. pelaksanaan proses pembelajaran; dan
+330. beban belajar mahasiswa.
+331. Perencanaan proses pembelajaran setiap mata kuliah dan disajikan dalam Rencana Pembelajaran Semester (RPS).
+332. Rencana Pembelajaran Semester (RPS) ditetapkan dan dikembangkan oleh dosen secara mandiri atau bersama dalam kelompok keahlian suatu bidang ilmu pengetahuan dan/atau teknologi dalam prodi;
+333. Rencana Pembelajaran Semester (RPS) paling sedikit memuat:
+334. nama prodi, nama dan kode mata kuliah, semester, sks, nama dosen pengampu;
+335. capaian pembelajaran lulusan yang dibebankan pada mata kuliah;
+336. kemampuan akhir yang direncanakan pada tiap tahap pembelajaran untuk memenuhi capaian pembelajaran lulusan;
+337. bahan kajian yang terkait dengan kemampuan yang akan dicapai;
+338. metode pembelajaran;
+339. waktu yang disediakan untuk mencapai kemampuan pada tiap tahap pembelajaran;
+340. pengalaman belajar mahasiswa yang diwujudkan dalam deskripsi tugas yang harus dikerjakan oleh mahasiswa selama satu semester;
+341. kriteria, indikator, dan bobot penilaian; dan
+342. daftar referensi yang digunakan.
+343. Rencana pembelajaran semester (RPS) wajib ditinjau dan disesuaikan secara berkala paling lambat 2 (dua) tahun atau sesuai dengan perkembangan ilmu pengetahuan dan teknologi.
+344. Praktikum dapat merupakan bagian dari mata kuliah atau mata kuliah berdiri sendiri.
+345. Praktikum dapat berupa kegiatan praktek di laboratorium, kerja di studio, bengkel atau praktik lapangan yang wajib diikuti oleh mahasiswa.
+346. Jumlah acara praktikum dan tatap muka disusun dan dilaksanakan berdasarkan kepada kompetensi yang akan dicapai pada mata kuliah bersangkutan.
+347. Ujian praktikum dilaksanakan untuk mengukur aspek psikomotorik dan afektif yang bersifat komprehensif atau pemecahan masalah keseharian.
+348. Bahasa pengantar yang digunakan dalam penyelenggaraan pendidikan di Universitas Bengkulu adalah bahasa Indonesia.
+349. Bahasa daerah dapat digunakan sebagai bahasa pengantar jika diperlukan dalam penyampaian pengetahuan dan/atau pelatihan dan/atau keterampilan bahasa daerah yang bersangkutan.
+350. Bahasa asing dapat digunakan sebagai bahasa pengantar jika diperlukan dalam penyampaian pengetahuan dan/atau pelatihan dan/atau keterampilan; Penggunaan bahasa asing di luar ketentuan disesuaikan dengan ketentuan peraturan perundang-undangan yang berlaku;
+351. Bahasa pengantar untuk kelas internasional adalah bahasa internasional.
+352. Standar penilaian pembelajaran merupakan kriteria minimal tentang penilaian proses dan hasil belajar mahasiswa dalam rangka pemenuhan capaian pembelajaran lulusan.
+353. Penilaian proses dan hasil belajar mahasiswa mencakup:
+354. prinsip penilaian;
+355. teknik dan instrumen penilaian;
+356. mekanisme dan prosedur penilaian;
+357. pelaksanaan penilaian;
+358. pelaporan penilaian; dan
+359. kelulusan mahasiswa.
+360. Prinsip penilaian sebagaimana dimaksud dalam Pasal 39 ayat (2) huruf a mencakup prinsip edukatif, otentik, objektif, akuntabel, dan transparan yang dilakukan secara terintegrasi;
+361. Prinsip edukatif merupakan penilaian yang memotivasi mahasiswa agar mampu:
+362. memperbaiki perencanaan dan cara belajar; dan
+363. meraih capaian pembelajaran lulusan;
+364. Prinsip otentik merupakan penilaian yang berorientasi pada proses belajar yang berkesinambungan dan hasil belajar yang mencerminkan kemampuan mahasiswa pada saat proses pembelajaran berlangsung;
+365. Prinsip objektif merupakan penilaian yang didasarkan pada standar yang disepakati antara dosen dan mahasiswa serta bebas dari pengaruh subjektivitas penilai dan yang dinilai;
+366. Prinsip akuntabel merupakan penilaian yang dilaksanakan sesuai dengan prosedur dan kriteria yang jelas, disepakati pada awal kuliah, dan dipahami oleh mahasiswa;
+367. Prinsip transparan merupakan penilaian yang prosedur dan hasil penilaiannya dapat diakses oleh semua pemangku kepentingan.
+368. Teknik penilaian sebagaimana dimaksud dalam terdiri atas observasi, partisipasi, unjuk kerja, tes tertulis, tes lisan, dan angket;
+369. Instrumen penilaian terdiri atas penilaian proses dalam bentuk rubrik dan/atau penilaian hasil dalam bentuk portofolio atau karya desain.
+370. Penilaian sikap dapat menggunakan teknik penilaian observasi.
+371. Penilaian penguasaan pengetahuan, keterampilan umum, dan keterampilan khusus dilakukan dengan memilih satu atau kombinasi dari berbagi teknik dan instrumen penilaian.
+372. Hasil akhir penilaian merupakan integrasi antara berbagai teknik dan instrumen penilaian yang digunakan.
+373. Mekanisme penilaian terdiri atas:
+374. menyusun, menyampaikan, menyepakati tahap, teknik, instrumen, kriteria, indikator, dan bobot penilaian antara penilai dan yang dinilai sesuai dengan rencana pembelajaran;
+375. melaksanakan proses penilaian sesuai dengan tahap, teknik, instrumen, kriteria, indikator, dan bobot penilaian yang memuat prinsip penilaian sebagaimana dimaksud dalam Pasal 39;
+376. memberikan umpan balik dan kesempatan untuk mempertanyakan hasil penilaian kepada mahasiswa; dan
+377. mendokumentasikan penilaian proses dan hasil belajar mahasiswa secara akuntabel dan transparan.
+378. Prosedur penilaian mencakup tahap perencanaan, kegiatan pemberian tugas atau soal, observasi kinerja, pengembalian hasil observasi, dan pemberian nilai akhir;
+379. Prosedur penilaian pada tahap perencanaan dilakukan melalui penilaian bertahap dan/atau
+380. Pelaksanaan penilaian dilakukan sesuai dengan rencana pembelajaran.
+381. Pelaksanaan penilaian dapat dilakukan oleh:
+382. dosen pengampu atau tim dosen pengampu;
+383. dosen pengampu atau tim dosen pengampu dengan mengikutsertakan mahasiswa; dan/atau
+384. dosen pengampu atau tim dosen pengampu dengan mengikutsertakan pemangku kepentingan yang relevan;
+385. Pelaksanaan penilaian sebagaimana dimaksud pada ayat (1) untuk program subspesialis, program doktor, dan program doktor terapan wajib menyertakan tim penilai eksternal dari perguruan tinggi yang berbeda.
+386. Pelaporan penilaian berupa kualifikasi keberhasilan mahasiswa dalam menempuh suatu mata kuliah yang dinyatakan dalam kisaran:
+387. Hasil penilaian diumumkan kepada mahasiswa setelah satu tahap pembelajaran sesuai dengan rencana pembelajaran.
+388. Hasil penilaian capaian pembelajaran lulusan di tiap semester dinyatakan dengan indeks prestasi semester (IPS);
+389. Hasil penilaian capaian pembelajaran lulusan pada akhir prodi dinyatakan dengan indeks prestasi kumulatif (IPK);
+390. Indeks prestasi semester (IPS) dinyatakan dalam besaran yang dihitung dengan cara menjumlahkan perkalian antara nilai huruf setiap mata kuliah yang ditempuh dan sks mata kuliah bersangkutan dibagi dengan jumlah sks mata kuliah yang diambil dalam satu semester;
+391. Indeks prestasi kumulatif (IPK)) dinyatakan dalam besaran yang dihitung dengan cara menjumlahkan perkalian antara nilai huruf setiap mata kuliah yang ditempuh dan sks mata kuliah bersangkutan dibagi dengan jumlah sks mata kuliah yang telah diambil yang telah ditempuh.
+392. Ujian akhir semester hanya dapat dilaksanakan apabila dosen telah melakukan tatap muka minimum 90% dari kegiatan kuliah dan atau praktikum yang terjadwal;
+393. Dosen yang tidak dapat memenuhi ketentuan tatap muka minimum 90% diwajibkan mengganti sejumlah tatap muka yang belum dilaksanakan;
+394. Seorang mahasiswa hanya diperbolehkan mengikuti ujian akhir semester jika telah mengikuti 80% dari jumlah pembelajaran yang terjadwal.
+395. Bagi mahasiswa yang tidak memenuhi persyaratan tanpa alasan yang sah tidak diperkenankan mengikuti ujian akhir semester.
+396. Nilai kelulusan Mata kuliah Universitas serendah-rendahnya C+;
+397. Nilai kelulusan mata kuliah lainnya serendah-rendahnya D bagi vokasi dan sarjana;
+398. Nilai kelulusan mata kuliah lainnya serendah-serendahnya C+ bagi pascasarjana dan Profesi;
+399. Nilai kelulusan untuk mata kuliah prasyarat ditentukan oleh prodi;
+400. Nilai kelulusan modul bagi program kedokteran dan kesehatan diatur dengan peraturan yang diberlakukan untuk itu.
+401. Dosen wajib menginputkan nilai secara daring paling lambat 2 (dua) minggu setelah Ujian Akhir Semester selesai;
+402. Dosen juga wajib menyerahkan nilai yang lengkap yang memuat perhitungan bobot aspek penilaian ke prodi untuk disampaikan ke bagian akademik fakultas;
+403. Dekan membuat teguran secara tertulis kepada dosen yang terlambat menginput dan menyerahkan nilai atas usulan dari ketua jurusan/bagian atau koordinator prodi bagi fakultas yang tidak memiliki jurusan/bagian;
+404. Jika mahasiswa belum memenuhi komponen penilaian pada saat nilai diumumkan, maka nilai mata kuliah untuk semester yang berjalan dinyatakan belum lengkap (BL);
+405. ika dalam waktu 2 (dua) minggu setelah jadwal penginputan nilai, mahasiswa belum dapat memenuhi komponen penilaian maka nilai BL dinyatakan E;
+406. Jika ada perubahan nilai, maka nilai dapat diumumkan setelah ditandatangani oleh Ketua Jurusan/Ketua Bagian/Kordinator Prodi yang bersangkutan;
+407. Nilai yang sudah diterima bagian Administrasi Akademik Fakultas tidak dapat diubah kembali kecuali terbukti terdapat kekeliruan yang dapat dibuktikan dengan surat resmi dari Ketua Jurusan/Ketua Bagian/Kordinator Prodi dengan bukti-bukti kekeliruan yang dilampirkan.
+408. Ujian susulan hanya dapat diberikan kepada mahasiswa apabila :
+409. Sakit, yang dibuktikan dengan surat keterangan dokter yang sah;
+410. Tugas negara/institusi, yang dibuktikan dengan Surat Tugas atau Surat Izin Rektor atau Dekan;
+411. Meninggalnya orang tua, istri/suami, anak kandung, saudara kandung, atau keluarga dekat yang dibuktikan dengan surat keterangan dari pejabat yang berwenang;
+412. Ujian susulan hanya dapat dilaksanakan paling lambat 2 (dua) minggu dari jadwal pelaksananan ujian.
+413. Perbaikan nilai hanya dapat dilakukan dengan cara mengambil ulang dan mengikuti secara penuh mata kuliah pada saat mata kuliah bersangkutan ditawarkan.
+414. Nilai yang diakui dari mata kuliah yang diulang adalah nilai yang terbaik;
+415. Dalam hal mahasiswa belum lulus setelah mengulang 2 (dua) kali perbaikan nilai dapat dilaksanakan melalui kuliah remedial;
+416. Dalam hal mahasiswa belum lulus mata kuliah disebabkan oleh tugas Universitas atau institusi resmi atas izin rektor yang dibuktikan dengan surat tugas resmi sehingga tidak memungkinkan untuk ikut perkuliahan dan/atau ujian, maka dapat dilaksanakan kuliah tutorial.
+417. Setiap mahasiswa progam Sarjana wajib mengikuti KKN atau kegiatan lain yang disetarakan dengan memenuhi persyaratan tertentu.
+418. KKN merupakan kegiatan intrakurikuler yang dilaksanakan mahasiswa di lapangan (masyarakat) yang materinya disesuaikan dengan pencapaian kompetensi sosial Tri Dharma Perguruan Tinggi;
+419. Pelaksanaan KKN bersifat interdisipliner (antar bidang ilmu) yang pelaksanaannya dikelola oleh Pelaksana Penyelenggaraan Program KKN (P3KKN) atau unit yang ditunjuk untuk itu;
+420. Peserta KKN yaitu mahasiswa S1 yang telah menyelesaikan beban studi minimal 100 (seratus) sks dengan IPK serendah-rendahnya 2,00.
+421. Mahasiswa yang sedang mengikuti KKN tidak dibolehkan mengambil mata kuliah lainnya baik teori maupun praktek.
+422. Peserta KKN ditetapkan dengan Keputusan Rektor atas usul P3KKN atau unit lain yang ditunjuk untuk itu
+423. KKN diberi bobot 4 (empat) sks dan dilakukan selama 2 bulan yang terdiri dari Pembekalan, Pelaksanaan dan Ujian Akhir.
+424. Penilaian terhadap hasil KKN diatur dengan Surat Keputusan Rektor;
+425. KKN dapat diselenggarakan dalam bentuk KKN Tematik Konstekstual, KKN Internasional, dan Kegiatan Kemahasiswaan yang disetarakan dengan KKN.
+426. Syarat mengikuti KKN Tematik Konstekstual memiliki IPK minimal 3,00 dan telah menyelesaikan 100 sks.
+427. Syarat mengikuti KKN Internasional memiliki IPK minimal 3.00, telah menyelesaikan 100 sks dan nilai TOEFL minimal 450;
+428. Penyetaraan Kuliah Kerja Nyata (KKN) minimal memenuhi persyaratan sebagai berikut :
+429. Kegiatan yang berhubungan langsung dan memberikan manfaat bagi masyarakat/badan/lembaga/kelompok profesi;
+430. Kegiatan yang dilaksanakan oleh kelompok mahasiswa yang berasal dari lintas disiplin, interdisiplin dan monodisiplin;
+431. Kegiatan yang bersifat pengabdian kepada masyarakat/ badan/lembaga/kelompok prosesi yang dilakukan secara sukarela tanpa ikatan kerja atau imbal jasa ;
+432. Mempunyai jumlah SKS yang sama dengan Mata Kuliah KKN;
+433. Lama waktu pelaksanaan kegiatan minimal sama dengan penyelenggaraan Mata Kuliah KKN;
+434. Memiliki kegiatan terstruktur minimal meliputi Kuliah Pembekalan, Pelaksanaan dan Ujian Akhir;
+435. Kuliah yang dapat disetarakan dapat berupa Magang, Kerja Praktek di Industri, Mengajar di Sekolah daerah 3T (Terdepan, Terluar, Tertinggal), Kuliah Kerja Lapangan, atau kegiatan lainnya atas usulan Dekan;
+436. Penyelenggara mata kuliah) adalah Fakultas dan memberikan laporan kepada Rektor melalui Badan Penyelenggara KKN Universitas.
+437. Mahasiswa wajib meyusun Laporan Tugas Akhir (LTA) bagi program vokasi, Skripsi bagi program sarjana, Tesis bagi program magister dan Disertasi bagi program doktoral;
+438. Syarat untuk mengambil Laporan Tugas Akhir (LTA) dan Skripsi adalah telah lulus sekurang-kurangnya masing-masing 80 (delapan puluh) dan 100 (seratus) sks;
+439. Bobot kredit LTA adalah 3 (tiga) sampai 5 (lima) sks dan Skripsi 4 (empat) sampai 6 (enam) sks;
+440. Bobot kredit Tesis adalah 8 (delapan) sks dan Disertasi 12 (dua belas) sks;
+441. Sistematika dan isi LTA, Skripsi, Tesis dan Disertasi berpedoman pada kaidah penulisan ilmiah dan ditetapkan oleh Fakultas.
+442. Dalam proses penulisan LTA mahasiswa dibimbing oleh sekurang-kurangnya 1 (satu) orang dosen pembimbing, sedangkan untuk Skripsi, Tesis dan Disertasi oleh sekurang-kurangnya 2 (dua) orang;
+443. Persyaratan pembimbing untuk pembimbingan LTA dan Skripsi:
+444. Pembimbing Utama berkualifikasi serendah-rendahnya S2 atau dengan jabatan fungsional serendah-rendahnya Lektor;
+445. Pembimbing pendamping berkualifikasi serendah-rendahnya S2 dengan jabatan fungsional serendah-rendahnya Asisten Ahli;
+446. Dekan atas nama Rektor mengangkat dan memberhentikan Pembimbing Utama dan Pembimbing Pendamping atas usul Ketua Jurusan/Ketua Bagian atau Koordinator Prodi bagi fakultas yang tidak memiliki jurusan/bagian;
+447. Persyaratan Pembimbing Pendamping) adalah profesional yang memiliki kualifikasi keilmuan relevan sesuai KKNI
+448. Persyaratan pembimbing untuk pembimbingan Tesis :
+449. Pembimbing Utama berkualifikasi serendah-rendahnya S3 dengan jabatan fungsional serendah-rendahnya Lektor;
+450. Pembimbing pendamping berkualifikasi serendah-rendahnya S2 dengan jabatan fungsional serendah-rendahnya Lektor Kepala;
+451. Persyaratan pembimbing untuk pembimbingan disertasi :
+452. Pembimbing Utama berkualifikasi S3 dengan jabatan fungsional serendah- rendahnya Lektor Kepala dan dalam waktu 5 (lima) tahun terakhir telah
+453. Menghasilkan paling sedikit 1 (satu) karya ilmiah pada jurnal nasional terakreditasi atau jurnal internasional yang bereputasi atau 1 (satu) bentuk lain yang diakui oleh kelompok pakar yang ditetapkan senat Universitas;
+454. Pembimbing pendamping berkualifikasi S3 dengan jabatan fungsional serendah-rendahnya Lektor Kepala;
+455. Pembimbing Utama jenjang Vokasi, Sarjana, Magister dan Promotor pada jenjang Doktor memiliki kualifikasi keilmuan relevan dengan bidang/konsentrasi keilmuannya.
+456. Dalam hal kondisi khusus, pembimbing utama Tesis dan Disertasi dapat berasal dari luar Universitas yang ditetapkan oleh rektor atas usulan prodi.
+457. Pembimbing Utama memiliki wewenang penuh dalam proses pembimbingan skripsi, sedangkan Pembimbing Pendamping membantu tugas Pembimbing Utama.
+458. Tugas dan tanggung jawab pembimbing adalah :
+459. Membimbing (tugas-tugas khusus) mahasiswa dalam menyusun usulan penelitian/magang, melakukan penelitian, analisis dan olah data, dan menyusun penelitian;
+460. Memeriksa, menguji, dan memberi nilai LTA, Skripsi, Tesis dan Disertasi yang telah dikerjakan oleh mahasiswa selama proses bimbingan.
+461. Mahasiswa wajib mengikuti seminar dan/atau ujian proposal dengan tata cara dan persyaratan yang ditentukan oleh prodi;
+462. Pelaksanaan ujian LTA, Skripsi, Tesis dan Disertasi ditentukan oleh Ketua Jurusan/Bagian atau Koordinator Prodi bagi Fakultas yang tidak memiliki jurusan/bagian;
+463. Untuk dapat dinyatakan lulus LTA, Skripsi, Tesis dan Disertasi seorang mahasiswa sekurang kurangnya harus mencapai nilai C+ bagi mahasiswa Vokasi dan Sarjana dan nilai B bagi mahasiswa Profesi dan Pascasarjana.
+464. Penyelenggaraan ujian LTA dilakukan oleh Tim Penguji yang komposisinya terdiri dari 1 (satu) orang dosen Pembimbing dan minimal 1 (satu) orang dosen Penguji;
+465. Penyelenggaraan ujian Skripsi dilakukan oleh Tim Penguji yang komposisinya terdiri dari 2 (dua) orang dosen Pembimbing dan minimal 2 (dua) orang dosen Penguji;
+466. Penyelenggaraan ujian Tesis dilakukan oleh Tim Penguji yang komposisinya terdiri dari 2 (dua) orang dosen Pembimbing dan minimal 2 (dua) orang dosen Penguji;
+467. Penyelenggaraan ujian Disertasi dilakukan oleh Tim Penguji yang komposisinya terdiri dari 2 (dua) orang dosen Pembimbing dan minimal 2 (dua) orang dosen Penguji;
+468. Pengangkatan Ketua dan Anggota tim penguji berdasarkan Surat Keputusan Rektor yang ditandatangani oleh Dekan atas nama Rektor, atas usul Ketua Jurusan/Ketua Bagian/Koordinator Prodi/penyelenggara program.
+469. Persyaratan tim penguji LTA dan Skripsi adalah sebagai berikut:
+470. Serendah-rendahnya berkualifikasi S2 dan minimal memiliki jabatan fungsional Asisten Ahli;
+471. Berstatus dosen tetap Universitas Bengkulu atau pihak lain yang berkompeten dalam bidangnya yang ditunjuk oleh Rektor berdasarkan usulan Dekan/Ketua Jurusan/Ketua Bagian/Koordinator Prodi;
+472. Persyaratan tim penguji Tesis dan Disertasi adalah sebagai berikut:
+473. Serendah-rendahnya berkualifikasi S3 yang relevan dan minimal memiliki jabatan fungsional Lektor;
+474. Berstatus dosen tetap Universitas Bengkulu atau pihak lain yang berkompeten dalam bidangnya yang ditunjuk oleh Rektor berdasarkan usulan penyelenggara;
+475. Evaluasi hasil pembelajaran diukur berdasarkan Indeks Prestasi (IP) yang terdiri dari IPS (Indeks Prestasi Semester) dan IPK (Indeks Prestasi Kumulatif) yang ditentukan dengan rumus sebagai berikut :
+476. IP = ∑ KNi x K-1;
+477. IP = Indeks Prestasi,
+478. K = Jumlah sks untuk setiap mata kuliah, dan Ni = Nilai masing-masing mata kuliah;
+479. Evaluasi keberhasilan studi untuk mahasiswa program Vokasi dan Sarjana dilaksanakan setiap akhir tahun akademik dengan IPK serendah-rendahnya 2,00;
+480. Evaluasi keberhasilan studi untuk mahasiswa program Magister dilaksanakan setiap akhir tahun akademik dengan IPK serendah-rendahnya 3,00;
+481. Evaluasi keberhasilan studi untuk mahasiswa program Profesi dilaksanakan setiap akhir tahun akademik dengan IPK serendah-rendahnya 2,75;
+482. Evaluasi keberhasilan studi untuk mahasiswa program Doktor dilaksanakan setiap tahun akademik dengan IPK serendah-rendahnya 3,00;
+483. Bagi mahasiwa yang tidak dapat memenuhi ketentuan evaluasi keberhasilan studi dapat diberi peringatan melalui Portal Akademik Mahasiswa dan/atau peringatan tertulis oleh Dekan atas usul Ketua Jurusan/Bagian atau Koordinator Prodi bagi Fakultas yang tidak memiliki jurusan/bagian.
+484. Bagi mahasiwa yang tidak dapat memenuhi ketentuan evaluasi keberhasilan studi diberi waktu selama-lamanya 1 tahun untuk memperbaiki IPK sesuai persyaratan;
+485. Evaluasi Hasil Pembelajaran mahasiswa berdasarkan data dari Sistem Informasi Akademik (SIAKAD);
+486. Bagi mahasiswa yang tidak dapat memenuhi persyaratan memenuhi keberhasilan studi dalam 1 tahun, secara otomatis dinyatakan DO (drop out) dengan Keputusan Rektor;
+487. Seorang mahasiswa dinyatakan lulus Program Vokasi dan Sarjana jika telah memenuhi persyaratan :
+488. Terdaftar sebagai mahasiswa aktif pada semester berjalan;
+489. Telah menempuh seluruh beban belajar yang ditetapkan dan memiliki capaian pembelajaran lulusan yang ditargetkan oleh prodi;
+490. Memiliki Indeks Prestasi Kumulatif (IPK) minimal 2,00 dengan nilai D tidak lebih 2 (dua) mata kuliah;
+491. Telah lulus tes TOEFL Prediksi dengan nilai minimal 400 yang diselenggarakan oleh UPT Bahasa Universitas atau tes setara dari lembaga internasional yang diakui;
+492. Telah memenuhi semua persyaratan yang ditetapkan prodi;
+493. Seorang mahasiswa dinyatakan lulus program Profesi dan Pascasarjana jika telah memenenuhi persyaratan :
+494. Terdaftar sebagai mahasiswa aktif pada semester berjalan;
+495. Telah menempuh seluruh beban belajar yang ditetapkan dan memiliki capaian pembelajaran lulusan yang ditargetkan oleh prodi;
+496. Memiliki Indeks Prestasi Kumulatif (IPK) minimal 3,00 dan tidak ada mata kuliah dengan nilai C;
+497. Telah lulus tes TOEFL Prediksi dengan nilai minimal 500 untuk program doktor dan minimal 425 untuk program magister dan profesi yang diselenggarakan oleh UPT Bahasa Universitas atau tes setara dari lembaga internasional yang diakui;
+498. Telah memenuhi semua persyaratan yang ditetapkan prodi;
+499. Khusus jenjang profesi, syarat kelulusan diatur lebih lanjut oleh peraturan yang berlaku.
+500. Yudisium merupakan rapat keputusan fakultas tentang kelulusan seorang mahasiswa sebelum acara wisuda;
+501. Penentuan predikat kelulusan/yudisium mahasiswa Vokasi dan Sarjana, adalah sebagai berikut:
+502. mahasiswa dinyatakan lulus dengan predikat memuaskan apabila mencapai indeks prestasi kumulatif (IPK) 2,76 (dua koma tujuh enam) sampai dengan 3,00 (tiga koma nol nol);
+503. mahasiswa dinyatakan lulus dengan predikat sangat memuaskan apabila mencapai indeks prestasi kumulatif (IPK) 3,01 (tiga koma nol satu) sampai dengan 3,50 (tiga koma lima nol);
+504. mahasiswa dinyatakan lulus dengan predikat pujian apabila mencapai indeks prestasi kumulatif (IPK) lebih dari 3,50 (tiga koma lima puluh).
+505. Penentuan predikat kelulusan/yudisium mahasiswa Profesi, Magister dan Doktor adalah sebagai berikut : mahasiswa dinyatakan lulus dengan predikat memuaskan apabila mencapai indeks prestasi kumulatif (IPK) 3,00 (tiga koma nol nol) sampai dengan 3,50 (tiga koma lima nol); mahasiswa dinyatakan lulus dengan predikat sangat memuaskan apabila mencapai indeks prestasi kumulatif (IPK) 3,51 (tiga koma lima satu) sampai dengan 3,75 (tiga koma tujuh lima); mahasiswa dinyatakan lulus dengan predikat pujian apabila mencapai indeks prestasi kumulatif (IPK) lebih dari 3,75 (tiga koma tujuh lima);
+509. Persyaratan tambahan pemberian predikat kelulusan/yudisium untuk mahasiswa lulusan Program Doktor sebagaimana diatur pada ayat (3) diatur oleh Dekan atau pejabat setingkat Dekan;
+510. Pemberian predikat kelulusan/yudisium dengan pujian bagi mahasiswa program Doktor adalah IPK ≥ 3,75 (tiga koma tujuh lima) dan evaluasi terhadap Disertasi dan Publikasinya, yang dilakukan oleh tim sekurang-kurangnya 3 orang yang ditunjuk oleh dekan;
+511. Predikat dengan pujian sebagaimana dimaksud pada ayat (2) huruf c diberikan kepada lulusan Diploma Tiga yang menyelesaikan studi paling lama 3 (tiga) tahun dan dengan nilai mata kuliah minimum B;
+512. Predikat dengan pujian sebagaimana dimaksud pada ayat (2) huruf c diberikan kepada lulusan Diploma IV yang menyelesaikan studi paling lama 4 (empat) tahun dan dengan nilai mata kuliah minimun B;
+513. Predikat dengan pujian sebagaimana dimaksud pada ayat (2) huruf c diberikan kepada lulusan Sarjana yang menyelesaikan studi paling lama 4 (empat) tahun dan nilai mata kuliah minimun B;
+514. Predikat dengan pujian sebagaimana dimaksud pada ayat (3) huruf c diberikan kepada lulusan Magister yang menyelesaikan studi paling lama 2 (dua) tahun dan nilai mata kuliah minimum B;
+515. Predikat dengan pujian sebagaimana dimaksud pada ayat (3) huruf c diberikan kepada lulusan Doktor yang menyelesaikan studi paling lama 4 (empat) tahun, nilai mata kuliah minimum B dan telah memiliki publikasi internasional bereputasi.
+516. Transkrip akademik merupakan ukuran kinerja akademik mahasiswa dalam bentuk nilai mata kuliah dalam suatu kurikulum.
+517. Transkrip akademik diterbitkan oleh universitas dan ditandatangani oleh Dekan atau Wakil Dekan bidang akademik.
+518. Format transkrip yang diterbitkan mengikuti peraturan perundang-undangan;
+519. Mahasiswa yang dinyatakan lulus program vokasi, sarjana atau pascasarjana berhak mendapatkan ijazah sesuai dengan peraturan yang berlaku.
+520. Ijazah merupakan surat tanda tamat belajar diberikan kepada lulusan vokasi, sarjana dan pascasarjana yang dikeluarkan oleh universitas dengan memenuhi aturan yang berlaku.
+521. Sertifikat profesi dan kompetensi diberikan kepada lulusan program profesi.
+522. SKPI diberikan kepada lulusan vokasi, sarjana dan pascasarjana yang diterbitkan oleh Fakultas, kecuali ditentukan lain oleh peraturan perundang- undangan.
+523. Gelar Akademik untuk semua Prodi Vokasi, Sarjana, Profesi dan Pascasarjana mengikuti ketentuan Kementerian yang berlaku dan ditetapkan oleh Rektor;
+524. Format Ijazah, Sertifikat dan SKPI yang diterbitkan mengikuti peraturan perundang-undangan.
+525. Mahasiswa yang dinyatakan lulus program vokasi, sarjana, profesi dan pascasarjana berhak mendapatkan gelar akademik dan ijazah sesuai dengan peraturan yang berlaku;
+526. Wisuda adalah pengukuhan gelar akademik di tingkat universitas yang diikuti oleh mahasiswa yang telah memenuhi syarat-syarat kelulusan/yudisium;
+527. Calon Wisudawan wajib melakukan pendaftaran secara daring (online) sesuai dengan kalender akademik;
+528. Calon wisudawan yang sudah Yudisium diusulkan oleh Dekan ke Universitas paling lambat 3 (tiga) minggu sebelum pelaksanaan wisuda;
+529. Calon Wisudawan wajib memiliki Nomor Ijazah Nasional kecuali program profesi.
+530. Upacara wisuda adalah upacara akademik universitas dalam rangka penyerahan ijazah dan transkrip kepada para lulusan yang dilaksanakan sesuai dengan kalender akademik universitas.
+531. Pada setiap wisuda diumumkan semua lulusan terbaik pada masing-masing Fakultas dan terbaik di tingkat Universitas.
+532. Peraturan ini berlaku untuk semua angkatan kecuali aturan mengenai Mata Kuliah Universitas, Nilai TOEFL Kelulusan dan Penyetaraan KKN diberlakukan pada mahasiswa mulai angkatan 2020/2021.
+533. Rentang Nilai Huruf Bobot
+534. 85– 100 A 4
+535. 80 – 84 A_ 3,75
+536. 75 – 79 B+ 3,5
+537. 70 – 74 B 3
+538. 65 – 69 B_ 2,75
+539. 60 – 64 C+ 2,5
+540. 55 – 59 C 2
+541. 45 – 54 D 1
+542. 0 – 44 E 0

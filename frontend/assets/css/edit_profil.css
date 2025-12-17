@@ -1,0 +1,259 @@
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Tambahan font elegan */
+h1, h2, h3, label {
+  font-family: 'Playfair Display', serif;
+}
+
+/* === Background === */
+body {
+  background: linear-gradient(135deg, #f0f4ff, #fff8ee);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  position: relative;
+}
+
+/* === Tombol Back di Kiri Atas === */
+.back-btn {
+  position: fixed;
+  top: 1px;
+  left: 20px;
+  background: transparent;
+  color: #1e3a8a;
+  font-size: 60px; 
+  font-weight: 100; 
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.back-btn:hover {
+  color: #2563eb;
+  transform: scale(1.25);
+  text-shadow: 0 3px 10px rgba(37, 99, 235, 0.4);
+}
+
+/* === Main Container === */
+.profile-wrapper {
+  width: 90%;
+  max-width: 850px;
+  background: linear-gradient(145deg, rgba(240,244,255,0.9), rgba(255,248,238,0.95));
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 50px 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek zoom di ujung container saat hover */
+.profile-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 35px rgba(37, 99, 235, 0.2);
+}
+
+/* === Header === */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e0e7ff;
+}
+
+.user-text h2 {
+  font-size: 22px;
+  color: #111;
+  font-weight: 700;
+}
+
+.user-text p {
+  color: #666;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+/* === Buttons === */
+.edit-btn, .save-btn {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 26px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, opacity 0.28s ease, height 0.28s ease, margin 0.28s ease, padding 0.28s ease;
+}
+
+.edit-btn:hover, .save-btn:hover {
+  background-color: #1e3a8a;
+  transform: scale(1.05);
+}
+
+.save-btn.hidden {
+  display: none;
+}
+
+/* === Form === */
+.profile-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 60px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1.5px solid #d1d5db;
+  font-size: 15px;
+  padding: 8px 0;
+  transition: border-color 0.3s;
+  color: #333;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-bottom: 1.5px solid #2563eb;
+}
+
+.form-group input[readonly],
+.form-group input:disabled {
+  background-color: transparent;
+  color: #555;
+  border-bottom: 1.5px solid #ddd;
+  cursor: not-allowed;
+}
+
+/* === Tombol Simpan di Tengah === */
+.center-btn {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .profile-form {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .profile-wrapper {
+    padding: 30px;
+  }
+
+  .back-btn {
+    left: 20px;
+    top: 15px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body { padding-top: 36px; }
+
+  .profile-wrapper {
+    width: 95%;
+    padding: 20px;
+    max-width: 520px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    margin-top: 60px; 
+  }
+
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .user-info { gap: 12px; }
+
+  .avatar { width: 72px; height: 72px; }
+
+  .user-text { text-align: center; }
+
+  .edit-btn { width: 100%; padding: 10px 12px; }
+
+  .form-group input { font-size: 15px; }
+
+  .center-btn { grid-column: 1 / -1; }
+  .save-btn { width: 100%; }
+
+  .back-btn { left: 8px; top: 8px; font-size: 28px; }
+}
+
+.mobile-only {
+  display: block;
+  opacity: 0;
+  transform: translateY(8px);
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.28s ease, transform 0.28s ease, visibility 0.28s ease;
+}
+
+@media (max-width: 480px) {
+  .profile-header .edit-btn {
+    opacity: 0;
+    transform: translateY(-8px);
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  /* show mobile edit button with animation */
+  .mobile-only {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    pointer-events: auto;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .mobile-edit-container { display: block; padding: 0 6px 6px 6px; }
+}
+
+@media (min-width: 1200px) {
+  .profile-wrapper { max-width: 1000px; padding: 60px 80px; }
+  .avatar { width: 110px; height: 110px; }
+  .user-text h2 { font-size: 26px; }
+}
